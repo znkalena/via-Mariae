@@ -1,0 +1,129 @@
+.header{    
+    max-width: 1728px;
+    max-height: 1117px;    
+}
+.conteiner{
+    background-image: url(../img/mainphoto.jpg);
+    background-size: cover;
+    max-width: 1668px;
+    padding: 30px 28px 30px 28px;
+    margin: 0 auto;
+    height: 1117px;
+    padding-top: 58px;
+    }
+.nav__conteiner{
+    display: flex;    
+}
+.logo{
+    width: 102px;
+    height: 68px;
+}
+.navigation{
+    background-color: rgba(255, 255, 255, 0.79);
+    opacity: 0.68;
+    border-radius: 36px;
+    display: flex;
+    height: 73px;
+    width: 1363px;
+    margin-left: 89px;
+    margin-bottom: 209px;       
+}
+.navigation__list{
+    display: flex;
+    align-items: center;      
+}
+.nav__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #492949;    
+}
+.nav__link:focus{
+    text-decoration:underline;
+    color: #FFFFFF;
+}
+.nav__item:not(:last-child){
+    margin-right: 38px;
+}
+
+.list__user{
+    margin-left: 377px;    
+}
+.navigation__list{
+    position: relative;
+}
+.nav__item:not(:last-child)::after{
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color:#492949;
+    border-radius: 50%;
+    top: 5px;       
+    transform:translateX(6px) ;
+}
+
+.list__user .nav__item:last-child::after{
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-image: url(../img/flag-for-slovakia.png); 
+    top: 50px;     
+}
+.header__text{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 158px;
+    line-height: 193px;    
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin: 0;
+    padding: 0;
+    margin-left: 111px;
+}
+.header__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 176px;
+    line-height: 215px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    margin-left: 123px;    
+}
+.header__description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px; 
+    color: #FFFFFF;
+    margin-left: 123px; 
+    margin-bottom: 40px; 
+}
+.header__distance{
+    display: flex;
+    gap: 75px;
+    margin-left: 123px;
+}
+.header__distance span{
+    display: block;
+    width: auto;
+    height: 62px;
+    background-color: #492949;    
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 12px;
+}

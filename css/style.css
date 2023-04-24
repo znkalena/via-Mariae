@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+    url(../fonts/AnyConv.com__Montserrat-BoldItalic.woff2) format('woff2'), 
+    url(../fonts/MiConv.com__Montserrat-Italic.woff) format('woff'); 
+    }
+    @font-face {
+        font-family: 'Montserrat', sans-serif;
+        font-style: bold;
+        font-weight: 700;
+        src: local(''),
+        url(../fonts/AnyConv.com__Montserrat-Bold.woff2) format('woff2'), 
+        url(../fonts/MiConv.com__Montserrat-Medium.woff) format('woff'); 
+        } 
+        @font-face {
+            font-family: 'Montserrat', sans-serif;
+            font-style: medium;
+            font-weight: 500;
+            src: local(''),
+            url(../fonts/AnyConv.com__Montserrat-Medium.woff2) format('woff2'), 
+            url(../fonts/MiConv.com__Montserrat-Medium.woff) format('woff'); 
+            }           
+            @font-face {
+                font-family: 'Montserrat', sans-serif;
+                font-style: bold;
+                font-weight: 500;
+                src: local(''),
+                url(../fonts/AnyConv.com__Montserrat-SemiBold.woff2) format('woff2'), 
+                url(../fonts/MiConv.com__Montserrat-SemiBold.woff) format('woff'); 
+                }
+                @font-face {
+                    font-family: 'TT Norms', sans-serif;
+                    font-style: bold;
+                    font-weight: 700;
+                    src: local(''),
+                    url(../fonts/TTNorms-Bold.woff2) format('woff2'), 
+                    url(../fonts/TTNorms-Bold.woff) format('woff'); 
+                    }
+                    @font-face {
+                        font-family: 'TT Norms', sans-serif;
+                        font-style: medium;
+                        font-weight: 500;
+                        src: local(''),
+                        url(../fonts/TTNorms-Medium.woff2) format('woff2'), 
+                        url(../fonts/TTNorms-Medium.woff) format('woff'); 
+                        }                  
+html{
+    box-sizing: border-box;    
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    min-width:1728px;
+    font-family: 'TT Norms',sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39.01px;
+    background-color:#E7E7E7;
+    color:#65575E;    
+    margin: 0;    
+}
+img{
+    max-width:100%;
+    height: auto;
+}
+ul{
+    list-style: none;    
+}
+
+.visually-hidden{
+position: fixed;
+transform: scale(0);
+}
+
+
