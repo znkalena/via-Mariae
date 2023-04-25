@@ -1,0 +1,15 @@
+.map__conteiner{
+    margin-left: 209px;
+    margin-bottom: 104px;
+}
+.map__maintitle{
+    color: #65575E;
+}
+.map__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 178%;
+    color: #65575E;
+}

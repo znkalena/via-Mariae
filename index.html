@@ -11,7 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/style.css"> 
-    <link rel="stylesheet" href="./css/header.css">   
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/presentation.css">
+    <link rel="stylesheet" href="./css/map.css">
+    <link rel="stylesheet" href="./css/separation.css">
+    <link rel="stylesheet" href="./css/planetrasy.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script> 
+    <script src="./js/script.js" defer></script> 
 </head>
 <body>
     <header class="header">
@@ -56,6 +68,7 @@
     </div>
     </header>
     <main class="main">
+
     <section class="presentation">
         <div class="presentation__conteiner">
         <h2 class="presentation__title title">o ceste</h2>
@@ -70,18 +83,47 @@
         <path d="M1.50743 0L10 10L1.50743 20L0 18.225L6.98514 10L0 1.775L1.50743 0Z" fill="#65575E"/>
         </svg>
     </a>
-    <div class="presentation__slider">
-        <h3 class="slider__title">-Fotografie pútnikov</h3>
-        <svg class="slider__button slider__button-left" width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M48.02 44.1L52.43 39.69C53.3283 38.7917 53.7775 37.6483 53.7775 36.26C53.7775 34.8717 53.3283 33.7283 52.43 32.83C51.5317 31.9317 50.3883 31.4825 49 31.4825C47.6117 31.4825 46.4683 31.9317 45.57 32.83L32.83 45.57C31.85 46.55 31.36 47.6933 31.36 49C31.36 50.3067 31.85 51.45 32.83 52.43L45.57 65.17C46.4683 66.0683 47.6117 66.5175 49 66.5175C50.3883 66.5175 51.5317 66.0683 52.43 65.17C53.3283 64.2717 53.7775 63.1283 53.7775 61.74C53.7775 60.3517 53.3283 59.2083 52.43 58.31L48.02 53.9H63.7C65.0883 53.9 66.2529 53.4296 67.1937 52.4888C68.1345 51.548 68.6033 50.3851 68.6 49C68.6 47.6117 68.1296 46.4471 67.1888 45.5063C66.248 44.5655 65.0851 44.0967 63.7 44.1H48.02ZM7.62939e-06 49C7.62939e-06 42.2217 1.28707 35.8517 3.86121 29.89C6.43534 23.9283 9.92577 18.7425 14.3325 14.3325C18.7425 9.9225 23.9283 6.43207 29.89 3.8612C35.8517 1.29033 42.2217 0.00326667 49 0C55.7783 0 62.1483 1.28707 68.11 3.8612C74.0717 6.43533 79.2575 9.92577 83.6675 14.3325C88.0775 18.7425 91.5679 23.9283 94.1388 29.89C96.7097 35.8517 97.9967 42.2217 98 49C98 55.7783 96.7129 62.1483 94.1388 68.11C91.5647 74.0717 88.0742 79.2575 83.6675 83.6675C79.2575 88.0775 74.0717 91.5696 68.11 94.1437C62.1483 96.7178 55.7783 98.0033 49 98C42.2217 98 35.8517 96.7129 29.89 94.1388C23.9283 91.5647 18.7425 88.0742 14.3325 83.6675C9.9225 79.2575 6.43044 74.0717 3.85631 68.11C1.28218 62.1483 -0.00325775 55.7783 7.62939e-06 49ZM9.8 49C9.8 59.9433 13.5975 69.2125 21.1925 76.8075C28.7875 84.4025 38.0567 88.2 49 88.2C59.9433 88.2 69.2125 84.4025 76.8075 76.8075C84.4025 69.2125 88.2 59.9433 88.2 49C88.2 38.0567 84.4025 28.7875 76.8075 21.1925C69.2125 13.5975 59.9433 9.8 49 9.8C38.0567 9.8 28.7875 13.5975 21.1925 21.1925C13.5975 28.7875 9.8 38.0567 9.8 49Z" fill="#65575E"/>
-        </svg>
-        <svg class="slider__button slider__button-right" width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M49.98 53.9L45.57 58.31C44.6717 59.2083 44.2225 60.3517 44.2225 61.74C44.2225 63.1283 44.6717 64.2717 45.57 65.17C46.4683 66.0683 47.6117 66.5175 49 66.5175C50.3883 66.5175 51.5317 66.0683 52.43 65.17L65.17 52.43C66.15 51.45 66.64 50.3067 66.64 49C66.64 47.6933 66.15 46.55 65.17 45.57L52.43 32.83C51.5317 31.9317 50.3883 31.4825 49 31.4825C47.6117 31.4825 46.4683 31.9317 45.57 32.83C44.6717 33.7283 44.2225 34.8717 44.2225 36.26C44.2225 37.6483 44.6717 38.7917 45.57 39.69L49.98 44.1H34.3C32.9117 44.1 31.7471 44.5704 30.8063 45.5112C29.8655 46.452 29.3967 47.6149 29.4 49C29.4 50.3883 29.8704 51.5529 30.8112 52.4937C31.752 53.4345 32.9149 53.9033 34.3 53.9H49.98ZM98 49C98 55.7783 96.7129 62.1483 94.1388 68.11C91.5647 74.0717 88.0742 79.2575 83.6675 83.6675C79.2575 88.0775 74.0717 91.5679 68.11 94.1388C62.1483 96.7097 55.7783 97.9967 49 98C42.2217 98 35.8517 96.7129 29.89 94.1388C23.9283 91.5647 18.7425 88.0742 14.3325 83.6675C9.9225 79.2575 6.43207 74.0717 3.8612 68.11C1.29033 62.1483 0.00326667 55.7783 0 49C0 42.2217 1.28707 35.8517 3.8612 29.89C6.43533 23.9283 9.92577 18.7425 14.3325 14.3325C18.7425 9.9225 23.9283 6.43044 29.89 3.85631C35.8517 1.28218 42.2217 -0.00325775 49 7.62939e-06C55.7783 7.62939e-06 62.1483 1.28707 68.11 3.86121C74.0717 6.43534 79.2575 9.92577 83.6675 14.3325C88.0775 18.7425 91.5696 23.9283 94.1437 29.89C96.7178 35.8517 98.0033 42.2217 98 49ZM88.2 49C88.2 38.0567 84.4025 28.7875 76.8075 21.1925C69.2125 13.5975 59.9433 9.8 49 9.8C38.0567 9.8 28.7875 13.5975 21.1925 21.1925C13.5975 28.7875 9.8 38.0567 9.8 49C9.8 59.9433 13.5975 69.2125 21.1925 76.8075C28.7875 84.4025 38.0567 88.2 49 88.2C59.9433 88.2 69.2125 84.4025 76.8075 76.8075C84.4025 69.2125 88.2 59.9433 88.2 49Z" fill="#65575E"/>
-        </svg>
-        <div class="slider"></div>
-        <a href="./pageabout.html">objaviť viac</a>
-    </div>
-    </div>
+    <div class="presentation__label">
+        <h3 class="presentation__label slider__title">-Fotografie pútnikov</h3>
+        <div class="presentation__label button__wrapper">
+            <button type="button" class="presentation__btn presentation__btn-left"></button>
+            <button type="button" class="presentation__btn presentation__btn-right"></button>           
+        </div>
+    </div>         
+            <div class="presentation__slider swiper">
+                <div class="presentation__slider-wrapper swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="presentation__image" 
+                        style="background-image: url('./img/slide1.jpg');background-repeat: no-repeat;">
+                        </div>           
+                    </div>  
+                    <div class="swiper-slide">
+                        <div class="presentation__image" 
+                        style="background-image: url('./img/slide2.jpg');background-repeat: no-repeat;">
+                        </div>           
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="presentation__image" 
+                        style="background-image: url('./img/slide3.jpg');background-repeat: no-repeat;">
+                        </div>           
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="presentation__image" 
+                        style="background-image: url('./img/slide4.jpg');background-repeat: no-repeat;">
+                        </div>           
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="presentation__image" 
+                        style="background-image: url('./img/slide5.jpg');background-repeat: no-repeat;">
+                        </div>           
+                    </div>                                                        
+            </div>
+                </div>
+        <a class="slider__link" href="./pageabout.html">objaviť viac <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.98156 17.6438L9.74653 9.66491C9.8387 9.56992 9.90413 9.46702 9.94284 9.3562C9.98155 9.24538 10.0006 9.12665 9.99999 9C9.99999 8.87335 9.98094 8.75462 9.94284 8.6438C9.90475 8.53298 9.83931 8.43008 9.74653 8.33509L1.98156 0.332454C1.76651 0.110818 1.49769 0 1.17511 0C0.852533 0 0.576036 0.118734 0.345622 0.356201C0.115207 0.593668 -2.66115e-08 0.870712 -2.66115e-08 1.18734C-2.66115e-08 1.50396 0.115207 1.781 0.345622 2.01847L7.11981 9L0.345622 15.9815C0.130568 16.2032 0.0230411 16.4764 0.0230411 16.8013C0.0230411 17.1261 0.138248 17.407 0.368663 17.6438C0.599077 17.8813 0.867894 18 1.17511 18C1.48233 18 1.75115 17.8813 1.98156 17.6438Z" fill="white"/>
+            </svg>
+        </a>
+        </div>   
     </section>
     <section class="map">
         <div class="map__conteiner">
@@ -96,14 +138,15 @@
         <p class="separation__text">Aby ste si mohli púť ľahšie naplánovať a prispôsobiť ju svojmu cieľu, príprave a časovým<br>
             možnostiam, rozdelili sme trasu na 10 úsekov, v končiacich bodoch ktorých sa nachádzajú<br>
             miesta na prenocovanie.</p>
-            <a href="./separation.html">Trasa (Trstená – Šahy) rozdelená do úsekov<svg width="20"
+            <a class="separation__link" href="./separation.html">Trasa (Trstená – Šahy) rozdelená do úsekov
+                <svg width="20"
                 height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 1.50743L10 10L0 1.50743L1.775 0L10 6.98514L18.225 0L20 1.50743Z" fill="white"/>
                 </svg>
             </a>
             <p class="separation__spanwrapper">
-                <span class="separation__span">Dĺžka trasy spolu: (Trstená – Šahy): 250 km</span>
-                <span class="separation__span">Nocľahy spolu: 10</span> 
+                <span class="separation__span span__left">Dĺžka trasy spolu: (Trstená – Šahy): 250 km</span>
+                <span class="separation__span span__right">Nocľahy spolu: 10</span> 
             </p>
     </section>
     <section class="planetrasy">

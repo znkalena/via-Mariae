@@ -49,9 +49,7 @@
 html{
     box-sizing: border-box;    
 }
-*,*::after,*::before{
-    box-sizing: inherit;
-}
+
 body{
     min-width:1728px;
     font-family: 'TT Norms',sans-serif;
@@ -62,14 +60,14 @@ body{
     color:#65575E;    
     margin: 0;    
 }
-img{
-    max-width:100%;
-    height: auto;
-}
+
 ul{
     list-style: none;    
 }
 
+a{
+    text-decoration: none;
+}
 .visually-hidden{
 position: fixed;
 transform: scale(0);
