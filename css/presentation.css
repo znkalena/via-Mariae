@@ -20,6 +20,11 @@
     line-height: 39px;
     color: #65575E;
 }
+.pageabout__text{
+    font-family: 'Montserrat';
+    color: #65575E;
+    margin-bottom: 58px;
+}
 .presentation__link{
     font-family: 'Montserrat';
     font-style: normal;
@@ -39,6 +44,7 @@
     width: 98px;
     height: 98px;
     border: none;
+    background-color: transparent;
 }
 .presentation__btn-left{    
     background-image: url('../img/sliderleft.svg');
@@ -49,6 +55,7 @@
     background-image: url('../img/sliderright.svg');    
 }
 .presentation__image{
+    max-width: 100%;
     width: 497px;
     height: 538px;
     border-radius: 20px;    
@@ -72,4 +79,34 @@
     padding: 12px 12px;
     padding-bottom: 0;
     margin-bottom: 157px;
+}
+.pageabout__link{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    width: 294px;
+    height: 52px;
+    background: #702C77;
+    border-radius: 26px;
+    padding: 12px 22px;
+    box-sizing: border-box;
+    margin-bottom: 58px;
+}
+.rurallure__link{
+    font-family: 'Montserrat';
+    color: #65575E;
+    margin-bottom: 170px;
+    font-weight: 700;
+}
+.rurallure__logo{
+    max-width: 324px;
+    max-height: 69px;
+    margin-left: 774px;
+}
+.ruralure__block{
+    display: flex;
+    
 }

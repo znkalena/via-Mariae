@@ -58,9 +58,12 @@ body{
     line-height: 39.01px;
     background-color:#E7E7E7;
     color:#65575E;    
-    margin: 0;    
+    margin: 0; 
+    font-style: normal;   
 }
-
+img{
+    width: 100%;
+}
 ul{
     list-style: none;    
 }
@@ -72,5 +75,8 @@ a{
 position: fixed;
 transform: scale(0);
 }
-
+.change__link svg:hover path{
+    background-color: transparent;
+    fill: rgb(141, 36, 141);
+}
 

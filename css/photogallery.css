@@ -1,0 +1,16 @@
+.photo__conteiner{
+    padding: 88px 100px;
+}
+.photogallery__title{
+    margin: 0; 
+    padding: 0;   
+    color: #65575E;
+    margin-bottom:58px ;
+}
+.photogallery__text{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    color: #65575E;
+    margin-bottom: 64px;
+}

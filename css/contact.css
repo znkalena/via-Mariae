@@ -1,0 +1,108 @@
+.contact{
+    padding-left: 101px;
+    padding-bottom:114px ;
+    padding-top: 66px;
+}
+.forma{
+    display: flex;
+    gap: 254px;
+}
+.forma__wrapper{
+    max-width: 519px;
+    max-height:697px;
+    border: none;
+}
+.logo__wrapper{
+    max-width: 754px;
+    max-height: 703px;
+    padding: 146px 75px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 52px;
+    background-color: #65575E;
+    border-radius: 20px;
+}
+.logo__wrapper-img{
+    flex-basis: 25%;
+    max-width: 100%;
+}
+.logo__wrapper-img:last-child{
+    margin-left: 100px;
+}
+
+.partners__title{
+    font-family: 'Montserrat';  
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 178%;
+    text-transform: uppercase;  
+    color: #65575E;
+    margin-bottom: 18px;
+}
+.contact__title{        
+    margin-bottom: 72px;
+    color: rgba(112, 44, 119, 0.7);
+}
+.contact__text{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';    
+    color: #65575E;
+    margin-bottom: 32px;
+}
+.contact__link{
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #65575E;
+    text-decoration: underline;
+    margin-bottom: 72px;
+}
+.contact__forma{
+    margin-top:72px;
+    margin-bottom: 62px;
+}
+.contact__fieldset{
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.fieldset__legend{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 178%;
+    color: rgba(112, 44, 119, 0.7);
+    margin-bottom: 76px;
+}
+.contact__lable{
+    font-family: 'Montserrat';
+    line-height: 120%;
+    color: #65575E;
+    margin-bottom: 40px;
+}
+.contact__input{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    border-bottom:3px solid #65575E;
+    margin-bottom: 40px;
+}
+.contact__textarea{
+    background-color: transparent;
+    margin-bottom: 62px;
+}
+.forma__btn{
+    background: #65575E;
+    border-radius: 48px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase; 
+    color: #FFFFFF; 
+    padding: 24px 100px;
+    border: none; 
+}

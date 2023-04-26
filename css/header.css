@@ -2,8 +2,12 @@
     max-width: 1728px;
     max-height: 1117px;    
 }
+.header__pageabout{
+    max-height: 73px;
+}
 .conteiner{
     background-image: url(../img/mainphoto.jpg);
+    border-radius: 6px;
     background-size: cover;
     max-width: 1668px;
     padding: 30px 28px 30px 28px;
@@ -11,6 +15,9 @@
     height: 1117px;
     padding-top: 58px;
     }
+.pageabout__conteiner{
+    margin: 72px 87px 58px 87px;
+}
 .nav__conteiner{
     display: flex;    
 }
@@ -28,6 +35,14 @@
     margin-left: 89px;
     margin-bottom: 209px;       
 }
+.navigation__pageabout{
+    background-color: rgba(255, 255, 255, 0.79);
+    opacity: 0.68;
+    border-radius: 36px;
+    height: 73px;
+    width: 1363px;
+    display: flex;   
+}
 .navigation__list{
     display: flex;
     align-items: center;      
@@ -42,12 +57,15 @@
     line-height: 28px;
     color: #492949;    
 }
-.nav__link:focus{
+.nav__link:active{
     text-decoration:underline;
     color: #FFFFFF;
 }
 .nav__item:not(:last-child){
     margin-right: 38px;
+}
+.nav__link:hover{
+    color: rgb(182, 9, 182);
 }
 
 .list__user{

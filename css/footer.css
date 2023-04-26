@@ -1,0 +1,39 @@
+.footer__wrapper{
+    display: grid;
+    grid-template-columns: 350px 350px 1fr 1fr 1fr;
+    padding:136px 145px 183px 148px ;
+    background-image: url('../img/footer.jpg');
+    background-repeat: no-repeat;
+}
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase; 
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+.footer__list{
+    margin: 0;
+    padding: 0;
+}
+.footer__link{
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.footer__link:hover{
+    color: rgb(141, 36, 141);   
+}
+.footer__contact{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 153px;
+}

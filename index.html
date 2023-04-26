@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="./css/presentation.css">
     <link rel="stylesheet" href="./css/map.css">
     <link rel="stylesheet" href="./css/separation.css">
-    <link rel="stylesheet" href="./css/planetrasy.css">
+    <link rel="stylesheet" href="./css/planetrasy.css">    
     <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
 
     <link
     rel="stylesheet"
@@ -51,7 +52,7 @@
             </li> 
         </ul>
         <button class="header__button visually-hidden">
-            <img src="./img/Vector.svg" alt="close button">
+            <img src="./img/Vector.svg" alt="open menu button">
         </button>
         </nav>   
         </div>
@@ -71,20 +72,20 @@
 
     <section class="presentation">
         <div class="presentation__conteiner">
-        <h2 class="presentation__title title">o ceste</h2>
+        <h2 class="presentation__title title" id="popisceste">o ceste</h2>
     <p class="presentation__text">
         Pútnická cesta Via Maria vedie zo severu na juh Slovenska, z Trstenej do Šiah.<br> 
     Počas putovania po tejto trase si pútnici a turisti môžu užiť krásu prírody,<br>
     spoznať bohatú kultúrnu a náboženskú históriu regiónov a zároveň pocítiť<br>
     pokoj, ktorý tento kraj ponúka.
     </p>
-    <a href="./pageabout.html" class="presentation__link">Viac o ceste
-        <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a href="./pageabout.html" class="presentation__link change__link">Viac o ceste
+        <svg width="10" height="20" viewBox="0 0 10 20"  xmlns="http://www.w3.org/2000/svg">
         <path d="M1.50743 0L10 10L1.50743 20L0 18.225L6.98514 10L0 1.775L1.50743 0Z" fill="#65575E"/>
         </svg>
     </a>
     <div class="presentation__label">
-        <h3 class="presentation__label slider__title">-Fotografie pútnikov</h3>
+        <h3 class="presentation__label slider__title" id="photo">-Fotografie pútnikov</h3>
         <div class="presentation__label button__wrapper">
             <button type="button" class="presentation__btn presentation__btn-left"></button>
             <button type="button" class="presentation__btn presentation__btn-right"></button>           
@@ -119,28 +120,28 @@
                     </div>                                                        
             </div>
                 </div>
-        <a class="slider__link" href="./pageabout.html">objaviť viac <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <a class="slider__link change__link" href="./pageabout.html">objaviť viac <svg width="10" height="18" viewBox="0 0 10 18"  xmlns="http://www.w3.org/2000/svg">
             <path d="M1.98156 17.6438L9.74653 9.66491C9.8387 9.56992 9.90413 9.46702 9.94284 9.3562C9.98155 9.24538 10.0006 9.12665 9.99999 9C9.99999 8.87335 9.98094 8.75462 9.94284 8.6438C9.90475 8.53298 9.83931 8.43008 9.74653 8.33509L1.98156 0.332454C1.76651 0.110818 1.49769 0 1.17511 0C0.852533 0 0.576036 0.118734 0.345622 0.356201C0.115207 0.593668 -2.66115e-08 0.870712 -2.66115e-08 1.18734C-2.66115e-08 1.50396 0.115207 1.781 0.345622 2.01847L7.11981 9L0.345622 15.9815C0.130568 16.2032 0.0230411 16.4764 0.0230411 16.8013C0.0230411 17.1261 0.138248 17.407 0.368663 17.6438C0.599077 17.8813 0.867894 18 1.17511 18C1.48233 18 1.75115 17.8813 1.98156 17.6438Z" fill="white"/>
             </svg>
         </a>
         </div>   
     </section>
-    <section class="map">
+    <section class="map" id="map">
         <div class="map__conteiner">
         <h2 class="map__maintitle title">Prehľad celej trasy</h2>
         <h3 class="map__title">Mapa: Cesta Via Mariae na Slovensku</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1363293.013611415!2d15.797203479699675!3d48.13566205570892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c89360aca6197%3A0x631f9b82fd884368!2z0JHRgNCw0YLQuNGB0LvQsNCy0LAsINCh0LvQvtCy0LDQutC40Y8!5e0!3m2!1sru!2sby!4v1682273110980!5m2!1sru!2sby" width="1310" height="683" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     </section>
-    <section class="separation">
+    <section class="separation" id="usek">
         <h3 class="separation__title title">Rozdelenie trasy</h3>
         <h3 class="separation__title title">do úsekov</h3>
         <p class="separation__text">Aby ste si mohli púť ľahšie naplánovať a prispôsobiť ju svojmu cieľu, príprave a časovým<br>
             možnostiam, rozdelili sme trasu na 10 úsekov, v končiacich bodoch ktorých sa nachádzajú<br>
             miesta na prenocovanie.</p>
-            <a class="separation__link" href="./separation.html">Trasa (Trstená – Šahy) rozdelená do úsekov
+            <a class="separation__link change__link" href="./separation.html">Trasa (Trstená – Šahy) rozdelená do úsekov
                 <svg width="20"
-                height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                height="10" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 1.50743L10 10L0 1.50743L1.775 0L10 6.98514L18.225 0L20 1.50743Z" fill="white"/>
                 </svg>
             </a>
@@ -157,8 +158,12 @@
                     <li class="plane__item">Príprava a vybavenie</li>
                     <li class="plane__item">Ako sa tam dostať</li>
                     <li class="plane__item">Ubytovanie a jedlo</li>
-                </ul>
-                
+                </ul>            
+            <a href="./pageplane.html" class="plane__link change__link">Naplánujte si cestu
+                <svg width="92" height="92" viewBox="0 0 92 92"  xmlns="http://www.w3.org/2000/svg">
+                <path d="M46 0L37.8925 8.1075L69.9775 40.25L0 40.25V51.75L69.9775 51.75L37.835 83.835L46 92L92 46L46 0Z" fill="white"/>
+                </svg>
+            </a>                
             </div>
             <div class="plane__photo">
                 <img src="./img/planeimg.jpg" alt="photo at picknik" width="624" height="707">
@@ -169,82 +174,83 @@
         <h2 class="contact__title title">kontakty</h2>
         <p class="contact__text">Ak máte ešte nejaké otázky, môžete si pozrieť našu stránku “Často kladené otázky” .            
         </p>
-        <a href="" class="contact__link">Prejsť na stránku
-            <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <a href="./kontakt.html" class="contact__link change__link">Prejsť na stránku
+            <svg width="10" height="20" viewBox="0 0 10 20"  xmlns="http://www.w3.org/2000/svg">
             <path d="M1.50743 0L10 10L1.50743 20L0 18.225L6.98514 10L0 1.775L1.50743 0Z" fill="#65575E"/>
             </svg>
         </a>
         <p class="contact__text">Alebo nám zanechajte správu vyplnením nižšie uvedeného formulára:</p>
         <div class="forma">
         <div class="forma__wrapper">
-            <form action="post" class="forma">
-                <fieldset class="fieldset">
-                    <label class="input__lable">Meno</label>
-                        <input type="text">
-                    <label class="input__lable">E-mail</label>
-                        <input type="email">
-                    <label for="Správa">Správa</label>
-                    <textarea name="Správa" id="" cols="30" rows="10"></textarea>
-                </fieldset>
-            </form>
+            <form action="post" class="contact__forma">
+                <legend class="fieldset__legend">NAPÍŠTE NÁM</legend>
+                <fieldset class="contact__fieldset">
+                    <label class="contact__lable">Meno</label>
+                        <input type="text" name="name" class="contact__input">
+                    <label class="contact__lable">E-mail</label>
+                        <input type="email" name="email" class="contact__input">
+                    <label for="Správa" class="contact__lable">Správa</label>
+                    <textarea name="Správa" id="sprava" cols="50" rows="10" class="contact__textarea"></textarea>
+                </fieldset>            
             <button type="submit" class="forma__btn">odoslať</button>
+        </form>
         </div>
         <div class="forma__partners">
             <h3 class="partners__title">Partneri:</h3>
             <div class="logo__wrapper">
-                <img src="/img/logo kraya.png" alt="logo nitrinsky kray">
-                <img src="/img/MEBGA logo.png" alt="logo company MEBGA">
-                <img src="/img//SZMCS logo.png" alt="logo company SZMCS">
-                <img src="/img/logo Kucko.png" alt="logo company KUCKO">
+                <img class="logo__wrapper-img" src="/img/logo kraya.png" alt="logo nitrinsky kray" width="285" height="108">
+                <img class="logo__wrapper-img" src="/img/MEBGA logo.png" alt="logo company MEBGA" width="268" height="108">
+                <img class="logo__wrapper-img" src="/img//SZMCS logo.png" alt="logo company SZMCS" width="178" height="178">
+                <img class="logo__wrapper-img" src="/img/logo Kucko.png" alt="logo company KUCKO" width="178" height="178">
             </div>
         </div>
     </div>
     </section>
     </main>
     <footer class="footer">
-    <nav class="footer__nav nav">
-        <div class="nav__about">
+    <div class="footer__wrapper">
+        <div class="footer__nav footer__nav-about">
             <h4 class="footer__title">o Via Mariae</h4>
             <ul class="footer__list">
                 <li class="footer__item">
-                    <a href="#" class="footer__link">Popis cesty</a>
+                    <a href="#popisceste" class="footer__link">Popis cesty</a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">Fotografie pútnikov</a>
+                    <a href="#photo" class="footer__link">Fotografie pútnikov</a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">Interaktívna mapa</a>
+                    <a href="#map" class="footer__link">Interaktívna mapa</a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">Rozdelenie trasy do úsekov</a>
+                    <a href="#usek" class="footer__link">Rozdelenie trasy do úsekov</a>
                 </li>
             </ul>    
         </div>
-        <div class="nav__plane">
+        <div class="footer__nav footer__nav-plane">
             <h4 class="footer__title">plánovanie púte</h4>
             <ul class="footer__list">
                 <li class="footer__item">
-                    <a href="#" class="footer__link">Možnosti prechodu</a>
+                    <a href="./pageplane.html#moznost" class="footer__link">Možnosti prechodu</a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">Príprava a vybavenie</a>
+                    <a href="./pageplane.html#priprava" class="footer__link">Príprava a vybavenie</a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">Ako sa tam dostať</a>
+                    <a href="./pageplane.html#dostat" class="footer__link">Ako sa tam dostať</a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">Ubytovanie</a>
+                    <a href="./pageplane.html#ubyt" class="footer__link">Ubytovanie</a>
                 </li>
                 <li class="footer__item">
-                    <a href="#" class="footer__link">Čo ochutnať</a>
+                    <a href="./pageplane.html#ochut" class="footer__link">Čo ochutnať</a>
                 </li>
             </ul>                   
         </div>
-        <div class="nav__ruralure">
+        <div class="footer__nav footer__nav-ruralure">
             <h4 class="footer__title">RurAllure</h4>
-                <a href="#" class="footer__link">O projekte</a>
+                <a href="./rurallure.html" class="footer__link">O projekte</a>
         </div>
-        <div class="nav__obchod">
+        <div class="footer__nav footer__nav-obchod">
             <h4 class="footer__title">obchod</h4>
             <ul class="footer__list">
                 <li class="footer__item">
@@ -255,27 +261,27 @@
                 </li>
             </ul>                
         </div>
-        <div class="nav__contact">
+        <div class="footer__nav footer__nav-contact">
             <h4 class="footer__title">kontakt</h4>
-            <ul class="contact__list">
-                <li class="contact__item">
-                    <a href="https://www.facebook.com/" class="contact__link">
-                        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ul class="footer__list footer__contact">
+                <li class="footer__item">
+                    <a href="https://www.facebook.com/" class="change__link">
+                        <svg width="52" height="52" viewBox="0 0 52 52"  xmlns="http://www.w3.org/2000/svg">
                         <path d="M52 26.0652C52 11.6772 40.352 0 26 0C11.648 0 0 11.6772 0 26.0652C0 38.6807 8.944 49.185 20.8 51.609V33.8847H15.6V26.0652H20.8V19.5489C20.8 14.5183 24.882 10.4261 29.9 10.4261H36.4V18.2456H31.2C29.77 18.2456 28.6 19.4185 28.6 20.8521V26.0652H36.4V33.8847H28.6V52C41.73 50.6967 52 39.593 52 26.0652Z" fill="#F0E1E1"/>
                         </svg>
                     </a>
                 </li>
-                <li class="contact__item">
-                    <a href="https://www.instagram.com/" class="contact__link">
-                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <li class="footer__nav footer__item">
+                    <a href="https://www.instagram.com/" class="change__link">
+                        <svg width="62" height="62" viewBox="0 0 62 62"  xmlns="http://www.w3.org/2000/svg">
                         <path d="M20.08 5H41.92C50.24 5 57 11.76 57 20.08V41.92C57 45.9195 55.4112 49.7551 52.5832 52.5832C49.7551 55.4112 45.9195 57 41.92 57H20.08C11.76 57 5 50.24 5 41.92V20.08C5 16.0805 6.58878 12.2449 9.41683 9.41683C12.2449 6.58878 16.0805 5 20.08 5ZM19.56 10.2C17.0776 10.2 14.6968 11.1861 12.9415 12.9415C11.1861 14.6968 10.2 17.0776 10.2 19.56V42.44C10.2 47.614 14.386 51.8 19.56 51.8H42.44C44.9224 51.8 47.3032 50.8139 49.0585 49.0585C50.8139 47.3032 51.8 44.9224 51.8 42.44V19.56C51.8 14.386 47.614 10.2 42.44 10.2H19.56ZM44.65 14.1C45.512 14.1 46.3386 14.4424 46.9481 15.0519C47.5576 15.6614 47.9 16.488 47.9 17.35C47.9 18.212 47.5576 19.0386 46.9481 19.6481C46.3386 20.2576 45.512 20.6 44.65 20.6C43.788 20.6 42.9614 20.2576 42.3519 19.6481C41.7424 19.0386 41.4 18.212 41.4 17.35C41.4 16.488 41.7424 15.6614 42.3519 15.0519C42.9614 14.4424 43.788 14.1 44.65 14.1ZM31 18C34.4478 18 37.7544 19.3696 40.1924 21.8076C42.6304 24.2456 44 27.5522 44 31C44 34.4478 42.6304 37.7544 40.1924 40.1924C37.7544 42.6304 34.4478 44 31 44C27.5522 44 24.2456 42.6304 21.8076 40.1924C19.3696 37.7544 18 34.4478 18 31C18 27.5522 19.3696 24.2456 21.8076 21.8076C24.2456 19.3696 27.5522 18 31 18ZM31 23.2C28.9313 23.2 26.9473 24.0218 25.4846 25.4846C24.0218 26.9473 23.2 28.9313 23.2 31C23.2 33.0687 24.0218 35.0526 25.4846 36.5154C26.9473 37.9782 28.9313 38.8 31 38.8C33.0687 38.8 35.0526 37.9782 36.5154 36.5154C37.9782 35.0526 38.8 33.0687 38.8 31C38.8 28.9313 37.9782 26.9473 36.5154 25.4846C35.0526 24.0218 33.0687 23.2 31 23.2Z" fill="#F0E1E1"/>
                         </svg>                              
                     </a>
                 </li>
             </ul>
-            <img class="contact__logo" src="/img/marianska-cesta-symbol 4.svg" alt="logo letter M">
+            <img class="footer__logo" src="/img/marianska-cesta-symbol 4.svg" alt="logo letter M" width="160" height="106">
         </div>
-    </nav>
+    </div>
     </footer> 
 </body>
 </html>

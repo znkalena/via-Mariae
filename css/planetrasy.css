@@ -1,0 +1,42 @@
+.planetrasy__conteiner{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 98px;
+    height: 907px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.plane__wrapper{
+    width: 884px;
+    height: 707px;
+    margin-bottom: 100px;
+    background-color: #65575E;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;    
+    color: #FFFFFF;
+}
+.plane__photo{
+    width: 624px;
+    height: 707px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.plane__list{
+    margin: 0;
+    padding: 116px 303px 10px 91px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    list-style:circle;
+}
+.plane__link{
+    font-size: 48px;
+    line-height: 57px;
+    color: #FFFFFF;
+    padding:20px 91px;
+    margin-bottom: 61px;
+    display: block;
+    box-sizing: border-box;   
+    text-decoration: underline;
+}
