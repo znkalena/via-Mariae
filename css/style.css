@@ -50,8 +50,9 @@ html{
     box-sizing: border-box;    
 }
 
-body{
-    min-width:1728px;
+body{    
+    box-sizing: border-box;
+    width:1728px;
     font-family: 'TT Norms',sans-serif;
     font-size: 32px;
     font-weight: 500;
@@ -62,7 +63,7 @@ body{
     font-style: normal;   
 }
 img{
-    width: 100%;
+    max-width: 100%;
 }
 ul{
     list-style: none;    
@@ -79,4 +80,5 @@ transform: scale(0);
     background-color: transparent;
     fill: rgb(141, 36, 141);
 }
+
 

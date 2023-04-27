@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 
     <link rel="stylesheet" href="./css/style.css"> 
     <link rel="stylesheet" href="./css/header.css">
@@ -19,19 +20,18 @@
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
 
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script> 
-    <script src="./js/script.js" defer></script> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>    
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+
+    <script src="./js/script.js" defer></script>
+
 </head>
 <body>
-    <header class="header">
         <div class="conteiner">
-        <div class="nav__conteiner">           
-        <img  src="./img/marianska-cesta-symbol 4.svg" alt="sign M" class="logo">        
-        <nav class="nav__conteiner navigation">
+        <div class="nav__conteiner">             
+                <img  src="./img/marianska-cesta-symbol 4.svg" alt="sign M" class="logo">                        
+        <nav class="navigation">
         <ul class="navigation__list list__main">            
                 <li class="nav__item">
                     <a href="/pageabout.html" class="nav__link">o Via Mariae</a>
@@ -186,11 +186,11 @@
                 <legend class="fieldset__legend">NAPÍŠTE NÁM</legend>
                 <fieldset class="contact__fieldset">
                     <label class="contact__lable">Meno</label>
-                        <input type="text" name="name" class="contact__input">
+                        <input type="text" name="name" id="name" class="contact__input input__name" required>
                     <label class="contact__lable">E-mail</label>
-                        <input type="email" name="email" class="contact__input">
+                        <input type="email" id="mail" name="mail" class="contact__input input__email" required>
                     <label for="Správa" class="contact__lable">Správa</label>
-                    <textarea name="Správa" id="sprava" cols="50" rows="10" class="contact__textarea"></textarea>
+                    <textarea name="sprava" id="sprava" cols="50" rows="10" class="contact__textarea textarea" required></textarea>
                 </fieldset>            
             <button type="submit" class="forma__btn">odoslať</button>
         </form>
