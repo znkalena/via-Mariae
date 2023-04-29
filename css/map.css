@@ -1,6 +1,8 @@
 .map__conteiner{
-    margin-left: 209px;
-    margin-bottom: 104px;
+    margin-bottom:104px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 209px;    
 }
 .map__maintitle{
     color: #65575E;

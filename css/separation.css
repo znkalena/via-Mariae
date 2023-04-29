@@ -30,6 +30,8 @@
     line-height: 29px;
     color: #FFFFFF;
     text-decoration: underline;
+    background-color: transparent;
+    border: none;
 }
 .separation__spanwrapper{
     margin: 0;

@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: 700;
-    src: local(''),
+    src: local('Montserrat'),
     url(../fonts/AnyConv.com__Montserrat-BoldItalic.woff2) format('woff2'), 
     url(../fonts/MiConv.com__Montserrat-Italic.woff) format('woff'); 
     }
@@ -18,7 +18,7 @@
             font-family: 'Montserrat', sans-serif;
             font-style: medium;
             font-weight: 500;
-            src: local(''),
+            src: local('Montserrat'),
             url(../fonts/AnyConv.com__Montserrat-Medium.woff2) format('woff2'), 
             url(../fonts/MiConv.com__Montserrat-Medium.woff) format('woff'); 
             }           
@@ -26,7 +26,7 @@
                 font-family: 'Montserrat', sans-serif;
                 font-style: bold;
                 font-weight: 500;
-                src: local(''),
+                src: local('Montserrat'),
                 url(../fonts/AnyConv.com__Montserrat-SemiBold.woff2) format('woff2'), 
                 url(../fonts/MiConv.com__Montserrat-SemiBold.woff) format('woff'); 
                 }
@@ -52,8 +52,9 @@ html{
 
 body{    
     box-sizing: border-box;
-    width:100%;
-    font-family: 'TT Norms',sans-serif;
+    width: 1728px;
+    min-width: 100%;
+    font-family: 'TT Norms';
     font-size: 32px;
     font-weight: 500;
     line-height: 39.01px;
@@ -81,6 +82,7 @@ transform: scale(0);
     fill: rgb(141, 36, 141);
 }
 .title{
+    font-family: 'TT Norms';
     font-style: normal;
     font-weight: 700;
     font-size: 96px;

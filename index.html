@@ -24,10 +24,14 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>    
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
 
-    <script src="./js/script.js" defer></script>
+    <script src="./js/script.js" defer></script>    
 
 </head>
 <body>
+    <header class="header">
+        <h1 class="presentation__title title visually-hidden">
+            o via mariae
+        </h1>
         <div class="conteiner">
         <div class="nav__conteiner">             
                 <img  src="./img/marianska-cesta-symbol 4.svg" alt="sign M" class="logo">                        
@@ -133,18 +137,78 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1363293.013611415!2d15.797203479699675!3d48.13566205570892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c89360aca6197%3A0x631f9b82fd884368!2z0JHRgNCw0YLQuNGB0LvQsNCy0LAsINCh0LvQvtCy0LDQutC40Y8!5e0!3m2!1sru!2sby!4v1682273110980!5m2!1sru!2sby" width="1310" height="683" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     </section>
-    <section class="separation" id="usek">
+    <section class="separation separation__pageabout" id="usek">
         <h3 class="separation__title title">Rozdelenie trasy</h3>
         <h3 class="separation__title title">do úsekov</h3>
         <p class="separation__text">Aby ste si mohli púť ľahšie naplánovať a prispôsobiť ju svojmu cieľu, príprave a časovým<br>
             možnostiam, rozdelili sme trasu na 10 úsekov, v končiacich bodoch ktorých sa nachádzajú<br>
             miesta na prenocovanie.</p>
-            <a class="separation__link change__link" href="./separation.html">Trasa (Trstená – Šahy) rozdelená do úsekov
+            <button type="button" class="separation__link change__link" href="./separation.html">Trasa (Trstená – Šahy) rozdelená do úsekov
                 <svg width="20"
                 height="10" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 1.50743L10 10L0 1.50743L1.775 0L10 6.98514L18.225 0L20 1.50743Z" fill="white"/>
                 </svg>
-            </a>
+            </button>
+            <button type="button" class="separation__link separation__link-close change__link visually-hidden" href="./separation.html">Trasa (Trstená – Šahy) rozdelená do úsekov
+                <svg width="20" height="10" viewBox="0 0 20 10"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 8.49257L10 0L20 8.49257L18.225 10L10 3.01486L1.775 10L0 8.49257Z" fill="white"/>
+                </svg>
+            </button>                              
+            <ul class="useky visually-hidden">
+                <li class="useky__item">
+                    <a href="#" class="useky__link">Trstená – Zábiedovo – Habovka – Zuberec – Huty
+                            <img src="./img/flag.svg" alt="icon flag">
+                    </a>
+                </li>
+                <li class="useky__item">
+                    <a href="#" class="useky__link">Huty – Kvačany – Dlhá Lúka – Prosiek – Ižipovce – Bukovina – Kalameny –<br>
+                        Madočany – Liptovská Teplá   <img src="./img/flag.svg" alt="icon flag">                               
+                    </a>
+                </li>
+                <li class="useky__item">
+                    <a href="#" class="useky__link">Liptovská Teplá – Ivachnová – Liptovské Sliače –<br>
+                    Liptovská Štiavnica – Ludrová – Piely Potok – Liptovská Osada
+                    <img src="./img/flag.svg" alt="icon flag">
+                </a>
+                </li>
+                <li class="useky__item">
+                    <a href="#" class="useky__link">Liptovská Osada – Nižná Revúca – Stredná Revúca – Vyšná Revúca –<br>
+                    Hor. Hajabačka – Valentová – Rybô – Kohútová – popod Majerovú skalu – Staré Hory
+                    <img src="./img/flag.svg" alt="icon flag">
+                </a>
+                </li>
+                <li class="useky__item">
+                    <a href="#" class="useky__link">Staré Hory – Špania Dolina – Sásová – Banská Bystrica
+                        <img src="./img/flag.svg" alt="icon flag">
+                    </a>
+                </li>
+                <li class="useky__item">
+                    <a href="#" class="useky__link">Banská Bystrica – Lukavica – Sampor – Sliač – Zvolen
+                        <img src="./img/flag.svg" alt="icon flag">
+                    </a>
+                </li>
+                <li class="useky__item">
+                    <a href="" class="useky__link">Zvolen – Dubové – Banský Studenec – Banská Štiavnica
+                        <img src="./img/flag.svg" alt="icon flag">
+                    </a>
+                </li>
+                <li class="useky__item">
+                    <a href="#" class="useky__link">Banská Štiavnica – Štiavnické bane – Počúvadelské jazero – Beluj –<br>
+                    Mladá Hora - Hontianske Nemce
+                    <img src="./img/flag.svg" alt="icon flag">
+                </a>
+                </li>
+                <li class="useky__item">
+                    <a href="#" class="useky__link">Hontianske Nemce – Rakovec - Plášťovce
+                        <img src="./img/flag.svg" alt="icon flag">
+                    </a>
+                </li>                      
+                <li class="useky__item">
+                    <a href="#" class="useky__link">Plášťovce – Šahy
+                        <img src="./img/flag.svg" alt="icon flag">
+                    </a>
+                </li>                    
+            </ul>
             <p class="separation__spanwrapper">
                 <span class="separation__span span__left">Dĺžka trasy spolu: (Trstená – Šahy): 250 km</span>
                 <span class="separation__span span__right">Nocľahy spolu: 10</span> 

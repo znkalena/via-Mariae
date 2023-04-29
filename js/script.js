@@ -18,7 +18,8 @@ new Swiper('.presentation__slider', {
 const validator = new JustValidate('.forma',{
     errorLabelCssClass: 'imput-error',
     errorLabelStyle: {
-        color: 'red'
+        color: 'red',
+        bottom:'80px',
     }
 });
 validator
@@ -39,7 +40,7 @@ validator
 .addField('#mail',[
     {
         rule: 'required',
-        errorMessage:'what`s your email?'
+        
     },
     {
         rule: 'email',
@@ -48,7 +49,7 @@ validator
 .addField('#sprava',[
     {
         rule: 'required',
-        errorMessage:'what`s your message?',
+        
     },
     {
         rule: 'minLength',
@@ -85,9 +86,23 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
     message.value = '';
     alert(`thank you,your message number: ${data.id}`);
     })
-})
+});
 
+separationPageLong =document.querySelector('.useky');
+const btnCloseLict  =document.querySelector('.separation__link-close') 
+const btnOpenList =document.querySelector('.separation__link');
 
+btnOpenList.addEventListener('click',() => {
+    separationPageLong.classList.remove('visually-hidden');
+    btnOpenList.classList.add('visually-hidden');
+    btnCloseLict.classList.remove('visually-hidden');
+});
+
+btnCloseLict.addEventListener('click',() => {
+    separationPageLong.classList.add('visually-hidden');
+    btnCloseLict.classList.add('visually-hidden');
+    btnOpenList.classList.remove('visually-hidden');
+});
 
 /*const API_URL ='https://jsonplaceholder.typicode.com/posts';
 const forma =document.querySelector('.forma');
