@@ -28,10 +28,9 @@
     opacity: 0.68;
     border-radius: 36px;
     display: flex;
-    gap: 377px;
+    gap:12%;
     justify-content: space-between;
-    max-width: 1363px;
-    max-height: 73px;      
+    min-width: 78%;        
     padding: 22px 47px;      
 }
 .list__main{
@@ -53,8 +52,7 @@
 }
 .nav__link{    
     padding: 0;
-    margin: 0;
-    text-decoration: none;
+    margin: 0;   
     text-transform: uppercase;
     font-family: 'TT Norms';
     font-style: normal;

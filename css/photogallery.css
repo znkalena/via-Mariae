@@ -1,5 +1,5 @@
 .photo__conteiner{
-    padding: 88px 100px;
+    padding: 88px 50px;
 }
 .photogallery__title{
     margin: 0; 
@@ -12,5 +12,53 @@
     padding: 0;
     font-family: 'Montserrat';
     color: #65575E;
-    margin-bottom: 64px;
+    margin-bottom: 42px;    
+}
+.photogallery__list{
+    margin: 0;
+    padding: 0;
+    display: flex;    
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 58px;
+}
+.photogallery__item{
+    max-width: 30%;
+}
+.long__item{
+    max-width: 22%;
+}
+.photogallery__photo{    
+    height: 538px;
+    width: 497px;
+    width:100%;        
+}
+.photogallery__change{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #65575E;    
+    margin-bottom: 59px; 
+    text-decoration: underline;
+    border: none;
+    padding: 8px;    
+    font-size: 32px;
+    line-height: 39px; 
+    background-color: transparent;       
+}
+.pfotogallery__batton{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #702C77;
+    border-radius: 26px;
+    padding: 12px 26px;       
+}
+.list__long{
+    gap: 44;
+}
+.list__long .photogallery__photo{
+    width: 350px;
+    height: 380px;
 }

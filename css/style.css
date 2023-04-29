@@ -52,7 +52,7 @@ html{
 
 body{    
     box-sizing: border-box;
-    width:1728px;
+    width:100%;
     font-family: 'TT Norms',sans-serif;
     font-size: 32px;
     font-weight: 500;
@@ -80,5 +80,15 @@ transform: scale(0);
     background-color: transparent;
     fill: rgb(141, 36, 141);
 }
-
-
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 113px;
+    text-transform: uppercase;    
+}
+@media (max-width:1520px) {
+    .title{
+font-size:60px;
+    }
+}      

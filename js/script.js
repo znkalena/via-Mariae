@@ -1,3 +1,4 @@
+//slider
 new Swiper('.presentation__slider', {
     // Optional parameters
     slidesPerView:4,
@@ -13,7 +14,7 @@ new Swiper('.presentation__slider', {
         delay:3000,
     },    
 });
-
+//validator and API
 const validator = new JustValidate('.forma',{
     errorLabelCssClass: 'imput-error',
     errorLabelStyle: {
@@ -85,6 +86,8 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
     alert(`thank you,your message number: ${data.id}`);
     })
 })
+
+
 
 /*const API_URL ='https://jsonplaceholder.typicode.com/posts';
 const forma =document.querySelector('.forma');

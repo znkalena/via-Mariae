@@ -2,13 +2,7 @@
     padding-left: 100px;
     padding-top: 100px;
 }
-.title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 113px;
-    text-transform: uppercase;      
-}
+
 .presentation__title{
     color: rgba(112, 44, 119, 0.7);      
 }
