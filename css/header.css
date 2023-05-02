@@ -4,7 +4,9 @@
 }
 .conteiner{
     box-sizing: border-box;    
-    background-image: url(../img/mainphoto.jpg);    
+    background-image: url(../img/mainphoto.jpg);
+    background-position: 50% 0; 
+    background-size: cover;   
     background-repeat: no-repeat;
     border-radius: 6px;    
     margin: 30px 28px;    
