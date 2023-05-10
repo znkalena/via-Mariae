@@ -1,17 +1,27 @@
 //slider
 new Swiper('.presentation__slider', {
     // Optional parameters
-    slidesPerView:4,
+    slidesPerView:3.5,
     direction: 'horizontal',
     loop: true,
-    spaceBetween:16,    
+    spaceBetween:16,
+    
+    
     // Navigation arrows
     navigation: {
     nextEl: '.presentation__btn-left',
     prevEl: '.presentation__btn-right',
     },
-    autoplay:{
+    /*autoplay:{
         delay:3000,
+    },*/
+    breakpoints:{
+        860:{
+            spceBetween:8,
+        },
+        410:{
+            spceBetween:3,
+        }
     },    
 });
 //validator and API

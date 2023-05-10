@@ -52,12 +52,12 @@ html{
 
 body{    
     box-sizing: border-box;
-    width: 1728px;
-    min-width: 100%;
+    width:100% ;
+    max-width:1728px ;
     font-family: 'TT Norms';
     font-size: 32px;
     font-weight: 500;
-    line-height: 39.01px;
+    line-height: 120%;
     background-color:#E7E7E7;
     color:#65575E;    
     margin: 0; 
@@ -85,12 +85,28 @@ transform: scale(0);
     font-family: 'TT Norms';
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 113px;
-    text-transform: uppercase;    
-}
-@media (max-width:1520px) {
+    font-size:96px;
+    line-height: 118%;
+    text-transform: uppercase;     
+}   
+@media (max-width:1350px) {
     .title{
-font-size:60px;
-    }
-}      
+    font-size:70px;
+    } 
+    } 
+@media (max-width:1020px) {
+        .title{
+        font-size:55px;
+        } 
+        } 
+@media (max-width:1020px) {
+            .title{
+            font-size:45px;
+            } 
+            } 
+@media (max-width:860px) {
+                .title{
+                font-size:40px;
+                } 
+        } 
+    

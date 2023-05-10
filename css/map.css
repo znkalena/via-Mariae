@@ -1,8 +1,8 @@
 .map__conteiner{
+    padding-left:120px;
     margin-bottom:104px;
     display: flex;
-    flex-direction: column;
-    margin-left: 209px;    
+    flex-direction: column;       
 }
 .map__maintitle{
     color: #65575E;
@@ -14,4 +14,32 @@
     font-size: 40px;
     line-height: 178%;
     color: #65575E;
+    padding: 0;
+    margin: 0;
+    margin-left: 89px;
+}
+.map__maintitle{
+    margin-left: 89px;
+}
+@media (max-width:1350px) {
+    .map__conteiner{
+        padding-left: 60px;
+    }
+    .map__maintitle{
+        font-size:60px;       
+    }
+    .map__title{
+        font-size: 30px;
+    } 
+}
+@media (max-width:860px) {
+    .map__conteiner{
+        padding-left: 50px;
+    }
+    .map__maintitle{
+        font-size:35px;       
+    }
+    .map__title{
+        font-size: 20px;
+    } 
 }

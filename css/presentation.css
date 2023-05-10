@@ -9,9 +9,7 @@
 .presentation__text{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 39px;
+    font-weight: 500;    
     color: #65575E;
 }
 .pageabout__text{
@@ -28,12 +26,18 @@
     color: #65575E;
     margin-bottom: 71px;
 }
+.slider__title{
+    
+    flex-grow: 1;
+    font-family: 'TT Norms';    
+    font-size: 48px;
+    line-height: 118%;
+    color: #65575E;
+}
 .presentation__label{
     display: flex;      
 }
-.button__wrapper{
-    margin-left: 833px;
-}
+
 .presentation__btn{
     width: 98px;
     height: 98px;
@@ -49,10 +53,11 @@
     background-image: url('../img/sliderright.svg');    
 }
 .presentation__image{
-    max-width: 100%;
-    width: 497px;
+    width: 100%;
+    /*min-width: 497px;*/
     height: 538px;
-    border-radius: 20px;    
+    border-radius: 20px;
+    background-size: cover;    
 }
 .presentation__slider{
     overflow: hidden;
@@ -72,8 +77,9 @@
     text-align: center;    
     padding: 12px 12px;
     padding-bottom: 0;
-    margin-bottom: 157px;
+    margin-bottom: 69px;    
 }
+
 .pageabout__link{
     font-weight: 700;
     font-size: 24px;
@@ -103,4 +109,31 @@
 .ruralure__block{
     display: flex;
     
+}
+@media (max-width:1350px) {
+    .presentation__conteiner{
+        padding-left: 70px;       
+    }
+    .presentation__text{        
+        font-size: 24px;        
+    }
+}
+@media (max-width:1020px) {
+    .presentation__conteiner{
+        padding-left: 50px;       
+    }
+    .presentation__text{        
+        font-size: 20px;        
+    }
+    .slider__title{          
+        font-size: 40px;        
+    }
+}
+@media (max-width:860px) {
+    .presentation__conteiner{
+        padding-left: 40px;       
+    }
+    .presentation__text{        
+        font-size: 16px;        
+    }
 }
