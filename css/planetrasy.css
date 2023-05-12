@@ -1,25 +1,23 @@
 .planetrasy__conteiner{
     display: flex;
-    padding:100px 0 100px 98px ;    
-    height: 907px;
+    gap: 10px;
+    padding:100px 0 100px 98px ;     
     box-sizing: border-box;
 }
 .plane__wrapper{
     flex-basis:58%;
     height: 707px;    
     background-color: #65575E;
-    border-radius: 20px;
-    font-family: 'Montserrat';
-    font-style: normal;    
-    color: #FFFFFF;
-}
+    border-radius: 20px; 
+}    
+    
 .plane__photo{
     flex-basis: 41%;
     width: 100%;
-    height: 707px;
+    max-height: 707px;
     border-radius: 20px;
 }
-.plane__list{
+.plane__list{    
     margin: 0;
     padding-left: 91px;
     padding-top:116px;
@@ -30,9 +28,9 @@
 }
 .plane__item{
     font-family: 'Montserrat';
+    color: #FFFFFF;
 }
-.plane__link{
-    display: flex;
+.plane__link{    
     font-size: 48px;
     line-height: 118%;
     color: #FFFFFF;
@@ -89,5 +87,40 @@
     }
     .plane__item{
         font-size: 20px;
+    }
+}
+@media (max-width:660px) {
+    .planetrasy__conteiner{
+        gap: 5px;       
+        padding: 16px;
+        min-height: 159px;
+        border-radius: 4.48px;
+    }
+    .plane__photo img{        
+        height: 158px;
+    }
+    .plane__wrapper{       
+        height: 158px;       
+    }
+    .plane__list{
+        padding: 0;
+        margin-top: 18px;
+        margin-left: 20px;
+        gap: 8px;        
+    }
+    .plane__item{        
+        margin: 0;
+        padding: 0;
+        font-size: 8px;
+        line-height: 9.75px;
+        margin-left: 20px;
+    }
+    .plane__link{
+        font-size: 10px;
+    }
+    .plane__link svg{
+        width: 20px;
+        height: 20px;
+        transform: translateY(10px);
     }
 }

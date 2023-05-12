@@ -12,15 +12,15 @@ new Swiper('.presentation__slider', {
     nextEl: '.presentation__btn-left',
     prevEl: '.presentation__btn-right',
     },
-    /*autoplay:{
+    autoplay:{
         delay:3000,
-    },*/
+    },
     breakpoints:{
         860:{
-            spceBetween:8,
+            spaceBetween:8,
         },
         410:{
-            spceBetween:3,
+            spaceBetween:3,
         }
     },    
 });

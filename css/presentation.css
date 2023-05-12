@@ -26,8 +26,7 @@
     color: #65575E;
     margin-bottom: 71px;
 }
-.slider__title{
-    
+.slider__title{    
     flex-grow: 1;
     font-family: 'TT Norms';    
     font-size: 48px;
@@ -37,7 +36,6 @@
 .presentation__label{
     display: flex;      
 }
-
 .presentation__btn{
     width: 98px;
     height: 98px;
@@ -81,6 +79,8 @@
 }
 
 .pageabout__link{
+    font-family: 'TT Norms';
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -91,6 +91,7 @@
     height: 52px;
     background: #702C77;
     border-radius: 26px;
+    text-align: center;
     padding: 12px 22px;
     box-sizing: border-box;
     margin-bottom: 58px;
@@ -135,5 +136,56 @@
     }
     .presentation__text{        
         font-size: 16px;        
+    }
+}
+@media (max-width:660px) {
+    .presentation__conteiner{
+        padding-left: 16px;
+        padding-top: 0;       
+    }
+    .presentation__title{
+        margin: 0;
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    .presentation__text{        
+        font-size: 10px;
+        margin: 0;
+        line-height: 12.19px;
+        margin-bottom: 8px;        
+    }
+    .presentation__link{
+        font-size: 8px;        
+    }
+    .presentation__link svg{
+        width: 4px;
+        height: 7px;
+    }
+    .slider__title{
+        margin: 21px 0;
+        font-size: 14px;
+    }
+    .presentation__label{
+        display: none;
+    }
+    .presentation__image{
+        width: 102px;        
+        height: 111px;
+        border-radius: 4.12px;          
+    }
+    .slider__link{
+        text-transform: uppercase;
+        width: 138px;
+        height: 32px;
+        margin: 18px 223px 32px 16px;
+        display: flex;
+        align-items: center;        
+        font-size: 14px;
+        padding: 0;
+        padding-left: 13px;
+    }
+    .slider__link svg{
+        width: 6px;
+        height: 12px;
     }
 }

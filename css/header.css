@@ -119,6 +119,9 @@
     padding: 0;
     margin-left: 123px;    
 }
+.mobilebr{
+    display: none;
+}
 .header__description{
     font-family: 'Montserrat';
     font-style: normal;
@@ -150,6 +153,20 @@
 .nav__pageabout{
     background: rgba(255, 255, 255, 0.79);
 }
+.header__button{
+    display: none;
+    background-color: transparent;
+    top: 24px;    
+    border: none;
+}
+.header__button svg{
+    width: 24px;
+    height: 16px;
+    color: #FFFFFF;
+    top: 16px;    
+}
+
+
 @media (max-width:1520px) {
 .conteiner{
     margin: 15px 14px;    
@@ -176,7 +193,7 @@
         padding: 15px 20px;       
     }
     .navigation{       
-        gap:50px;            
+        gap:40px;            
     }
     .logo{
         max-width: 82px;
@@ -195,7 +212,7 @@
         gap: 18px;
     }
     .nav__link{
-        font-size: 20px;
+        font-size: 18px;
     }
     .nav__item:not(:last-child)::after{
         top: 70px;
@@ -207,7 +224,7 @@
     }
 @media (max-width:1020px) {
     .navigation{       
-        gap:25px; 
+        gap:20px; 
         padding: 11px 23px;           
     }
     .header__titlesecond{        
@@ -250,7 +267,7 @@
         padding: 6px 11px;           
     }
     .nav__link{
-        font-size: 12px;
+        font-size: 14px;
     }
     .nav__item:not(:last-child)::after{
         top: 55px;
@@ -262,3 +279,59 @@
         font-size: 60px;
     }
 }        
+
+@media (max-width:680px) {
+    .header{
+        margin-bottom: 15px;
+        border-radius: 20px;
+    }
+    .navigation{
+        display: none;
+    }
+    .nav__conteiner{
+        justify-content: space-between;
+        margin-bottom: 5px;
+        padding: 24px 21px;         
+    }
+    .logo{
+        max-width: 36px;
+        max-height: 24px;
+        margin-right: 0px;
+    }
+    .header__button{
+        display: block;
+    }
+    .header__titleone{
+        font-size:48px ;
+        text-align: center;
+    }
+    .header__titlesecond{
+        font-size: 48px;
+        text-align: center;
+    }
+    .header__description{
+        font-size: 10px;
+        text-align: center;
+        line-height: 12.19px;
+        margin-bottom: 0px;
+        padding: 8px 29px 13px 29px;        
+    }
+    .mobilebr{
+        display: block;
+    }
+    .desctopbr{
+        display: none;
+    }
+    .header__distance{
+        margin: 0;
+        justify-content: center;
+        gap: 11px;
+    }
+    .header__distance span{       
+        font-size: 6px;        
+        padding: 0px;
+        height:auto;
+        margin: 0;
+        margin-bottom: 34px;
+    }
+}

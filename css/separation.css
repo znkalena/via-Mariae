@@ -12,8 +12,8 @@
 }
 .separation__text{
     font-family: 'Montserrat';         
-    color: #FFFFFF;
-    margin: auto;
+    color: #FFFFFF; 
+    margin: auto;   
     margin-top: 90px;
     padding: 0;
     margin-bottom:27px;
@@ -23,10 +23,10 @@
     font-style: normal;
     font-weight: 700;
     font-size:24px;
-    color: #FFFFFF;
-    text-decoration: underline;
+    color: #FFFFFF;    
     background-color: transparent;
     border: none;
+    border-bottom: 4px solid #FFFFFF;
 }
 .separation__spanwrapper{
     margin: 0;
@@ -125,5 +125,46 @@
     .span__right{
         width:15%;
         font-size: 16px;
+    }
+}
+@media (max-width:660px) {
+    .separation{    
+        padding: 0;
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
+    .separation__title{
+        font-size: 32px;
+        margin-right: 16px;               
+    }
+    .separation__text{
+        margin: 18px 16px 8px 16px;    
+        font-size: 10px;
+        line-height: 12.19px;
+    }
+    .separation__text br{
+        display: none;
+    }
+    .separation__link{
+        font-size: 8px;
+        margin-left: 16px;
+    }
+    .separation__spanwrapper{
+        margin-top: 18px;
+        margin-left: 16px;       
+    }
+    .separation__span{
+        font-size: 6px;
+        line-height: 7.31px;
+        padding: 3px 6px;
+    }
+    .span__left{
+        width: 140px;
+        height: 13px;
+        margin-right: 8px;
+    }
+    .span__right{
+        width: 70px;
+        height: 13px;
     }
 }
