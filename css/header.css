@@ -282,8 +282,8 @@
 
 @media (max-width:680px) {
     .header{
-        margin-bottom: 15px;
-        border-radius: 20px;
+        margin-bottom: 15px;       
+        border-radius: 0%;
     }
     .navigation{
         display: none;
@@ -304,10 +304,12 @@
     .header__titleone{
         font-size:48px ;
         text-align: center;
+        margin-left: 0;
     }
     .header__titlesecond{
-        font-size: 48px;
+        font-size: 40px;
         text-align: center;
+        margin-left: 0;
     }
     .header__description{
         font-size: 10px;
