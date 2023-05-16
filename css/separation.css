@@ -162,7 +162,7 @@
         font-size: 16px;           
 }
 }
-@media (max-width:660px) {
+@media (max-width:740px) {
     .separation{    
         padding: 0;
         padding-top: 16px;

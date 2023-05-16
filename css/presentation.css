@@ -146,7 +146,7 @@
         font-size: 24px;
     }
 }
-@media (max-width:660px) {
+@media (max-width:740px) {
     .presentation__conteiner{
         padding: 16px;
         padding-top: 0;       
@@ -208,7 +208,8 @@
     .presentation__image{
         width: 102px;        
         height: 111px;
-        border-radius: 4.12px;          
+        border-radius: 4.12px;
+        width: 100%;                
     }
     .slider__link{
         text-transform: uppercase;

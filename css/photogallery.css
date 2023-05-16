@@ -63,7 +63,7 @@
     width: 350px;
     height: 380px;
 }
-@media (max-width:660px) {
+@media (max-width:740px) {
     .photo__conteiner{
         padding: 18px;
     }
