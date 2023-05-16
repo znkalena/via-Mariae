@@ -14,11 +14,12 @@
     }
 .pageabout__conteiner{
     box-sizing: border-box;
-    padding:62px 87px 0 87px;
+    padding:72px 87px 0 87px;
 }
 .nav__conteiner{
     display: flex;
-    margin-bottom: 209px;         
+    margin-bottom: 209px;
+    position: relative;         
 }
 .nav__conteiner-pageabout{    
     margin-bottom: 0;
@@ -89,7 +90,7 @@
     background-color:#492949;
     border-radius: 50%;           
     transform:translateX(6px);
-    top: 80px;    
+    top: 40px;    
 }
 .translate__btn-header{
     border: none;
