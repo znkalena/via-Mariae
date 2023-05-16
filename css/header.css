@@ -14,11 +14,14 @@
     }
 .pageabout__conteiner{
     box-sizing: border-box;
-    padding:88px 70px;
+    padding:72px 87px 0 87px;
 }
 .nav__conteiner{
     display: flex;
     margin-bottom: 209px;         
+}
+.nav__conteiner-pageabout{    
+    margin-bottom: 0;
 }
 .logo{
     max-width: 102px;
@@ -42,6 +45,7 @@
     flex-wrap: nowrap;
     gap: 38px;  
 }
+
 .list__user{
     margin: 0;
     padding: 0;
@@ -63,15 +67,18 @@
     line-height:116%;
     color: #492949;    
 }
+.activ__link{
+    color: #702C77
+}
 .nav__link:active{
     text-decoration:underline;
-    color: #FFFFFF;
+    color: #492949;
 }
 
 .nav__link:hover{
     color: rgb(182, 9, 182);
 }
-.navigation__item:last-child{
+.nav__item:last-child{
     position: relative;
 }
 .nav__item:not(:last-child)::after{
@@ -80,19 +87,21 @@
     width: 4px;
     height: 4px;
     background-color:#492949;
-    border-radius: 50%;
-    top:85px;       
-    transform:translateX(6px) ;
+    border-radius: 50%;           
+    transform:translateX(6px);
+    top: 10%;
 }
-
-.list__user .nav__item:last-child::after{
-    content: '';
+.translate__btn-header{
+    border: none;
+    background-image: url(../img/flag-for-slovakia.png);
+    background-repeat: no-repeat;
     position: absolute;
     width: 28px;
     height: 28px;
-    background-image: url(../img/flag-for-slovakia.png);
     top:172px;
+    left: 80%;
 }
+
 .header__titleone{
     font-family: 'Montserrat';
     font-style: italic;
@@ -159,18 +168,13 @@
     top: 24px;    
     border: none;
 }
-.header__button svg{
-    width: 24px;
-    height: 16px;
-    color: #FFFFFF;
-    top: 16px;    
-}
-
-
 @media (max-width:1520px) {
 .conteiner{
     margin: 15px 14px;    
     padding: 29px 35px;       
+}
+.pageabout__conteiner{    
+    padding:30px 40px 0 40px;
 }
 .navigation{       
     gap:100px;            
@@ -300,6 +304,9 @@
     }
     .header__button{
         display: block;
+    }
+    .pageabout__popupopen{
+        color: #702C77;
     }
     .header__titleone{
         font-size:48px ;

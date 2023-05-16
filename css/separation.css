@@ -68,14 +68,15 @@
 }
 .useky__link{    
     font-family: 'Montserrat';
-    font-weight: 700;
+    font-weight: 400;
     font-size: 40px;
     line-height: 122%;
     color: #FFFFFF;
-    text-decoration: underline;
-    @media (max-width:1520) {
-        font-size:35px;
-        }    
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 8px;   
+}
+.useky__span{
+    font-weight: 700;
 }
 .useky__link::after{
     position: absolute;
@@ -96,6 +97,17 @@
     .separation__text{
         font-size:24px ;
     }
+    .useky{        
+        margin-top:40px;    
+        margin-left: 60px;    
+    }
+    .useky__item{    
+        padding-bottom: 36px;    
+        padding-left: 14px;                
+    }
+    .useky__link{         
+        font-size: 24px;           
+}
 }
 @media (max-width:1020px){
     .separation__text{
@@ -111,6 +123,18 @@
         width:15%;
         font-size: 24px;
     }
+    .useky{
+        list-style: none;        
+        margin-top:20px;    
+        margin-left: 30px;    
+    }
+    .useky__item{    
+        padding-bottom: 20px;    
+        padding-left:12px;                
+    }
+    .useky__link{         
+        font-size: 20px;           
+}
 }
 @media (max-width:860px){
     .separation__text{
@@ -126,6 +150,17 @@
         width:15%;
         font-size: 16px;
     }
+    .useky{        
+        margin-top:10px;    
+        margin-left: 15px;    
+    }
+    .useky__item{    
+        padding-bottom: 18px;    
+        padding-left:10px;                
+    }
+    .useky__link{         
+        font-size: 16px;           
+}
 }
 @media (max-width:660px) {
     .separation{    
@@ -135,7 +170,7 @@
     }
     .separation__title{
         font-size: 32px;
-        margin-right: 16px;               
+        margin-right: 16px;                    
     }
     .separation__text{
         margin: 18px 16px 8px 16px;    
@@ -167,4 +202,23 @@
         width: 70px;
         height: 13px;
     }
+    .useky{        
+        margin-top:27px;    
+        margin-left: 5px;    
+    }    
+    .useky__item{    
+        padding-bottom: 18px;    
+        padding-left:16px;                
+    }
+    .useky__link{         
+        font-size:10px;
+        line-height:178%; 
+        padding-bottom: 4px;                       
+}
+.useky__link::after{
+    display: none;
+}
+.useky__item img{
+    display: none;
+}
 }

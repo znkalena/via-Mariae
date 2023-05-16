@@ -64,4 +64,7 @@
         height: 180px;
         padding: 0 16px;
     }
+    .pageabout__map{
+        display: none;
+    }
 }

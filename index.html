@@ -54,7 +54,13 @@
             <li class="nav__item">
                 <a href="/kontakt.html" class="nav__link">kontakt</a>
             </li> 
-        </ul>        
+        </ul>
+        <button  onclick="toggleLanguage()" class="translate__btn-header"></button>
+                    <ul id="language__header" class="language__header">
+                        <li>
+                            <a href="#"></a>                             
+                        </li>                        
+                    </ul>               
         </nav>
         <button type="button" class="header__button popupopen__btn">
             <img src="./img/open.svg" alt="open menu button">
@@ -156,55 +162,55 @@
             </button>                              
             <ul class="useky visually-hidden">
                 <li class="useky__item">
-                    <a href="#" class="useky__link">Trstená – Zábiedovo – Habovka – Zuberec – Huty
+                    <a href="#" class="useky__link"><span class="useky__span">Trstená</span> – Zábiedovo – Habovka – Zuberec –<span class="useky__span">Huty</span> 
                             <img src="./img/flag.svg" alt="icon flag">
                     </a>
                 </li>
                 <li class="useky__item">
-                    <a href="#" class="useky__link">Huty – Kvačany – Dlhá Lúka – Prosiek – Ižipovce – Bukovina – Kalameny –<br>
-                        Madočany – Liptovská Teplá   <img src="./img/flag.svg" alt="icon flag">                               
+                    <a href="#" class="useky__link"><span class="useky__span">Huty</span> – Kvačany – Dlhá Lúka – Prosiek – Ižipovce – Bukovina – Kalameny –<br>
+                        Madočany –<span class="useky__span">Liptovská Teplá</span><img src="./img/flag.svg" alt="icon flag">                               
                     </a>
                 </li>
                 <li class="useky__item">
-                    <a href="#" class="useky__link">Liptovská Teplá – Ivachnová – Liptovské Sliače –<br>
-                    Liptovská Štiavnica – Ludrová – Piely Potok – Liptovská Osada
+                    <a href="#" class="useky__link"><span class="useky__span">Liptovská Teplá</span> – Ivachnová – Liptovské Sliače –<br>
+                    Liptovská Štiavnica – Ludrová – Piely Potok –<span class="useky__span">Liptovská Osada</span> 
                     <img src="./img/flag.svg" alt="icon flag">
                 </a>
                 </li>
                 <li class="useky__item">
-                    <a href="#" class="useky__link">Liptovská Osada – Nižná Revúca – Stredná Revúca – Vyšná Revúca –<br>
-                    Hor. Hajabačka – Valentová – Rybô – Kohútová – popod Majerovú skalu – Staré Hory
+                    <a href="#" class="useky__link"><span class="useky__span">Liptovská Osada </span>– Nižná Revúca – Stredná Revúca – Vyšná Revúca –<br>
+                    Hor. Hajabačka – Valentová – Rybô – Kohútová – popod Majerovú skalu – <span class="useky__span">Staré Hory</span>
                     <img src="./img/flag.svg" alt="icon flag">
                 </a>
                 </li>
                 <li class="useky__item">
-                    <a href="#" class="useky__link">Staré Hory – Špania Dolina – Sásová – Banská Bystrica
+                    <a href="#" class="useky__link"><span class="useky__span">Staré Hory</span> – Špania Dolina – Sásová –<span class="useky__span">Banská Bystrica</span> 
                         <img src="./img/flag.svg" alt="icon flag">
                     </a>
                 </li>
                 <li class="useky__item">
-                    <a href="#" class="useky__link">Banská Bystrica – Lukavica – Sampor – Sliač – Zvolen
+                    <a href="#" class="useky__link"><span class="useky__span">Banská Bystrica</span> – Lukavica – Sampor – Sliač –<span class="useky__span">Zvolen</span> 
                         <img src="./img/flag.svg" alt="icon flag">
                     </a>
                 </li>
                 <li class="useky__item">
-                    <a href="" class="useky__link">Zvolen – Dubové – Banský Studenec – Banská Štiavnica
+                    <a href="" class="useky__link"><span class="useky__span">Zvolen</span> – Dubové – Banský Studenec –<span class="useky__span">Banská Štiavnica</span> 
                         <img src="./img/flag.svg" alt="icon flag">
                     </a>
                 </li>
                 <li class="useky__item">
-                    <a href="#" class="useky__link">Banská Štiavnica – Štiavnické bane – Počúvadelské jazero – Beluj –<br>
+                    <a href="#" class="useky__link"><span class="useky__span">Banská Štiavnica</span> – Štiavnické bane – Počúvadelské jazero –<span class="useky__span">Beluj</span>  –<br>
                     Mladá Hora - Hontianske Nemce
                     <img src="./img/flag.svg" alt="icon flag">
                 </a>
                 </li>
                 <li class="useky__item">
-                    <a href="#" class="useky__link">Hontianske Nemce – Rakovec - Plášťovce
+                    <a href="#" class="useky__link"><span class="useky__span">Hontianske Nemce</span> – <span class="useky__span">Rakovec - Plášťovce</span>
                         <img src="./img/flag.svg" alt="icon flag">
                     </a>
                 </li>                      
                 <li class="useky__item">
-                    <a href="#" class="useky__link">Plášťovce – Šahy
+                    <a href="#" class="useky__link"><span class="useky__span">Plášťovce</span> – <span class="useky__span">Šahy</span>
                         <img src="./img/flag.svg" alt="icon flag">
                     </a>
                 </li>                    
@@ -347,9 +353,9 @@
             </div>
         </div>
         </footer> 
-        <section class="popup visually-hidden">
+        <section class="popup main__popup visually-hidden">
             <div class="popup__conteiner">
-                <button type="button" class="closepopup__btn">
+                <button type="button" class="closepopup__btn mainclose__btn">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 14.5551L3.05703 23.4981C2.72243 23.8327 2.29658 24 1.77947 24C1.26236 24 0.836501 23.8327 0.5019 23.4981C0.1673 23.1635 0 22.7376 0 22.2205C0 21.7034 0.1673 21.2776 0.5019 20.943L9.44487 12L0.5019 3.05703C0.1673 2.72243 0 2.29658 0 1.77947C0 1.26236 0.1673 0.836501 0.5019 0.5019C0.836501 0.1673 1.26236 0 1.77947 0C2.29658 0 2.72243 0.1673 3.05703 0.5019L12 9.44487L20.943 0.5019C21.2776 0.1673 21.7034 0 22.2205 0C22.7376 0 23.1635 0.1673 23.4981 0.5019C23.8327 0.836501 24 1.26236 24 1.77947C24 2.29658 23.8327 2.72243 23.4981 3.05703L14.5551 12L23.4981 20.943C23.8327 21.2776 24 21.7034 24 22.2205C24 22.7376 23.8327 23.1635 23.4981 23.4981C23.1635 23.8327 22.7376 24 22.2205 24C21.7034 24 21.2776 23.8327 20.943 23.4981L12 14.5551Z" fill="white"/>
                         </svg>
@@ -393,11 +399,11 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.40266 15.877C5.09991 15.4119 4.91353 14.9018 4.81159 14.3571C4.70616 13.7844 4.73984 13.2065 4.74509 12.6298C4.74805 12.0433 4.76395 11.4569 4.79278 10.8711C4.81159 10.5215 4.83653 10.1737 4.85228 9.82458C4.85709 9.74277 4.89822 9.74233 4.95947 9.74233C6.43078 9.7432 7.90297 9.7432 9.37384 9.7432C9.98503 9.7432 10.5949 9.74408 11.2052 9.74146C11.2691 9.74146 11.2945 9.75283 11.3002 9.82327C11.3557 10.4905 11.378 11.159 11.3968 11.8279C11.4143 12.4242 11.42 13.0223 11.4135 13.619C11.4043 14.435 11.193 15.1958 10.7507 15.887C10.6947 15.8638 10.6758 15.8087 10.6452 15.7636C10.5515 15.6221 10.4353 15.4968 10.3013 15.3926C10.0275 15.1857 9.59697 15.2435 9.35372 15.4679C9.2984 15.5185 9.24747 15.5736 9.20147 15.6328C9.14809 15.7037 9.12491 15.7011 9.08597 15.6236C8.99645 15.4351 8.88165 15.2597 8.74472 15.1021C8.66084 15.0064 8.56217 14.9247 8.45247 14.8602C8.41266 14.837 8.36934 14.8204 8.35491 14.7701C8.33697 14.5785 8.34922 14.3851 8.34659 14.193C8.34397 13.981 8.34397 13.7689 8.34659 13.5569C8.34747 13.4366 8.37066 13.409 8.49184 13.4151C8.99016 13.4366 9.48978 13.4383 9.97584 13.5775C10.0765 13.6055 10.08 13.5985 10.0752 13.4948C10.0649 13.2633 10.0652 13.0315 10.076 12.8C10.0804 12.706 10.0743 12.695 9.97934 12.7213C9.61962 12.8171 9.24911 12.8665 8.87684 12.8683C8.75959 12.8691 8.64366 12.8915 8.52553 12.8831C8.37678 12.874 8.34659 12.8451 8.34572 12.7007C8.34484 12.4855 8.34397 12.2693 8.34659 12.0545C8.34747 11.925 8.37853 11.9018 8.50584 11.9075C8.88428 11.9259 9.26053 11.9631 9.62628 12.0711C9.69191 12.0908 9.71772 12.0668 9.71684 12.0016C9.71509 11.9491 9.72384 11.8966 9.71247 11.8454C9.68141 11.6831 9.71115 11.5203 9.71509 11.3576C9.72122 11.1887 9.71859 11.1891 9.55934 11.2294C9.25091 11.306 8.93984 11.3628 8.62134 11.3576C8.57803 11.3567 8.53734 11.3663 8.49491 11.3703C8.37941 11.3821 8.34309 11.3536 8.34747 11.2355C8.35403 11.082 8.37416 10.9293 8.39428 10.7783C8.42097 10.5867 8.45291 10.3973 8.49184 10.2091C8.51503 10.0958 8.50016 10.0744 8.39034 10.0871C8.17925 10.1107 7.96618 10.1107 7.75509 10.0871C7.65141 10.0757 7.64047 10.091 7.66016 10.1925C7.72622 10.536 7.78659 10.8794 7.80541 11.229C7.81153 11.3331 7.78484 11.3746 7.69559 11.3707C7.39328 11.3554 7.08922 11.3466 6.79259 11.2749C6.70378 11.2526 6.61278 11.2381 6.52616 11.2088C6.46841 11.1887 6.44391 11.1996 6.44522 11.2675C6.45047 11.516 6.44959 11.764 6.44522 12.0116C6.44347 12.0773 6.46578 12.0926 6.52616 12.0733C6.89366 11.9548 7.27472 11.9316 7.65578 11.9075C7.77609 11.9001 7.81547 11.9364 7.81722 12.0589C7.81984 12.2811 7.81984 12.5025 7.81722 12.7243C7.81547 12.8381 7.78878 12.8652 7.67284 12.8801C7.63434 12.884 7.59453 12.8858 7.55559 12.884C7.09272 12.8652 6.63028 12.849 6.17878 12.7235C6.08647 12.6976 6.07247 12.7073 6.07772 12.8022C6.08603 13.0336 6.08603 13.2642 6.07772 13.4961C6.07247 13.5928 6.09172 13.6011 6.18928 13.5753C6.54594 13.4811 6.91329 13.4336 7.28216 13.434C7.41778 13.434 7.54947 13.4077 7.68291 13.4151C7.77828 13.4204 7.81503 13.4475 7.81503 13.5363C7.81766 13.9467 7.82728 14.3575 7.81022 14.7679C7.80103 14.8077 7.77041 14.8256 7.73759 14.8418C7.52497 14.9503 7.37272 15.1227 7.24322 15.3183C7.18153 15.4101 7.12641 15.5061 7.07828 15.6057C7.03453 15.6985 7.00478 15.7024 6.94353 15.6175C6.81841 15.4473 6.66003 15.3349 6.45222 15.2876C6.13941 15.2159 5.88872 15.3209 5.67872 15.5475C5.6001 15.6346 5.52925 15.7285 5.46697 15.828C5.45078 15.852 5.43634 15.8774 5.40178 15.8791" fill="#ED1C25"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.40259 15.8769C5.4879 15.7549 5.56928 15.6293 5.66859 15.5173C6.09996 15.0387 6.72209 15.2329 6.96665 15.607C6.98021 15.6275 6.99509 15.6494 7.01565 15.677C7.19546 15.306 7.40284 14.9669 7.78915 14.784C7.92609 14.6707 8.24853 14.672 8.37234 14.7854C8.7534 14.9687 8.96078 15.3047 9.13534 15.6691C9.17253 15.6529 9.18128 15.6197 9.19921 15.5947C9.45471 15.2272 10.0449 15.071 10.4422 15.4735C10.5642 15.5982 10.6662 15.7352 10.7515 15.8857C10.5826 16.1784 10.3673 16.4339 10.1328 16.6754C9.55403 17.2725 8.8654 17.7122 8.12428 18.078C8.0919 18.0933 8.06696 18.0942 8.03503 18.078C7.2134 17.6729 6.45609 17.1776 5.84753 16.4829C5.68128 16.2947 5.52465 16.0996 5.4039 15.8782" fill="#1B75BB"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.37373 14.7858C8.18625 14.713 7.97836 14.7125 7.79055 14.7845C7.78967 14.3768 7.7853 13.9686 7.78967 13.5608C7.79055 13.4751 7.77392 13.4436 7.67898 13.4453C7.14042 13.4541 6.60405 13.4729 6.08298 13.6335C6.0738 13.637 6.06286 13.6335 6.04492 13.6335C6.05323 13.3662 6.06636 13.0993 6.05148 12.8315C6.04186 12.6543 6.0458 12.6517 6.21686 12.6968C6.70248 12.828 7.2008 12.8482 7.70086 12.8438C7.76386 12.8429 7.79186 12.8289 7.79011 12.7572C7.78573 12.5122 7.78573 12.2672 7.79011 12.0226C7.79098 11.9517 7.76692 11.9355 7.70086 11.9364C7.28873 11.946 6.88098 11.9876 6.4868 12.1136C6.41417 12.1368 6.40673 12.1219 6.41067 12.0515C6.42817 11.7754 6.42905 11.4976 6.4098 11.2211C6.40411 11.1432 6.42467 11.1415 6.4903 11.1616C6.88448 11.2858 7.2918 11.3322 7.70436 11.3379C7.76736 11.3379 7.78836 11.3239 7.78355 11.2548C7.75598 10.8803 7.7013 10.511 7.62123 10.1435C7.60373 10.0657 7.61686 10.0412 7.69955 10.0512C7.95929 10.0786 8.22118 10.0786 8.48092 10.0512C8.54217 10.0451 8.55836 10.0547 8.54392 10.123C8.4634 10.4893 8.40814 10.8607 8.37855 11.2347C8.37198 11.3152 8.39167 11.3397 8.47611 11.3379C8.88648 11.3287 9.28942 11.2832 9.68142 11.159C9.74092 11.1397 9.75405 11.1524 9.75098 11.2115C9.73436 11.4958 9.73436 11.7793 9.75098 12.0628C9.75405 12.1232 9.7418 12.1333 9.68142 12.1149C9.28942 11.9898 8.88561 11.9482 8.47611 11.936C8.3943 11.9333 8.3733 11.9574 8.37505 12.0383C8.38073 12.279 8.37898 12.5213 8.37505 12.762C8.37417 12.8193 8.3873 12.8416 8.4503 12.8425C8.98317 12.8503 9.51342 12.8263 10.0279 12.6723C10.0997 12.6517 10.1246 12.65 10.1172 12.737C10.094 13.0106 10.094 13.2856 10.1172 13.5591C10.1215 13.6225 10.1172 13.6444 10.041 13.6225C9.51911 13.4677 8.98273 13.4493 8.44242 13.4458C8.37067 13.4458 8.37592 13.4852 8.37592 13.5328L8.37373 14.7858Z" fill="#E6E7E8"/>
-                    </svg>
-                    <button onclick="toggleLanguage()" class="translate__btn">Slovenčina</button>
-                    <ul id="language-option" class="language-option">
-                        <li><a href="#">English                            
-                        </a>                             
+                </svg>
+                    <button onclick="toggleLanguagePopup()" class="translate__btn">Slovenčina</button>
+                    <ul id="language__popup" class="language__popup">
+                        <li>
+                            <a href="#">English</a>                             
                         </li>                        
                     </ul>                        
                         <svg  class="transform__svg" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">

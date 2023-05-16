@@ -52,13 +52,69 @@
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: #702C77;
+    border: none;
     border-radius: 26px;
     padding: 12px 26px;       
 }
 .list__long{
-    gap: 44;
+    gap: 44px;
 }
 .list__long .photogallery__photo{
     width: 350px;
     height: 380px;
+}
+@media (max-width:660px) {
+    .photo__conteiner{
+        padding: 18px;
+    }
+    .photogallery__title{        
+        margin-bottom:18px ;
+        font-size: 32px;
+        margin-left: 71px;
+    }
+    .photogallery__text{
+        font-size: 10px;
+        line-height: 12.19px;
+        margin-bottom: 18px;   
+    }
+    .photogallery__list{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;    
+        gap: 8px;
+        flex-wrap: nowrap;
+        margin-bottom: 18px;
+        overflow: hidden;
+    } 
+    .photogallery__item{
+        min-width: 216px;
+    }    
+    .photogallery__photo{    
+        height: 234px;
+        width: 216px;              
+    }
+    .photogallery__change{        
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 38px;              
+    }
+    .pfotogallery__batton{        
+        font-size: 14px;
+        line-height: 17px;        
+        padding: 7px 23px; 
+        margin-left: 25%; 
+        align-items: center;     
+    }
+    .list__long{
+        gap: 2px;
+        flex-wrap: wrap;
+    }
+    .list__long .photogallery__photo{
+        width: 112px;
+        height: 112px;       
+    }
+    .long__item{
+        min-width: 112px;
+    }    
 }

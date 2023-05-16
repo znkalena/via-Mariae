@@ -115,18 +115,30 @@ btnCloseLict.addEventListener('click',() => {
 });
 
 //choice language
+
 function toggleLanguage(){    
-    const languageOptions = document.querySelector('#language-option');
+    const languageOptions = document.querySelector('#language__header');    
     if(languageOptions.style.display==='block'){
         languageOptions.style.display='none';       
     }else{
         languageOptions.style.display='block';        
     }
 };
+function toggleLanguagePopup(){    
+    const languageOptionsPopup =document.querySelector('#language__popup');
+    if(languageOptionsPopup.style.display==='block'){
+        languageOptionsPopup.style.display='none';       
+    }else{
+        languageOptionsPopup.style.display='block';        
+    }
+};
+
 //open popup
 const openBtn = document.querySelector('.popupopen__btn');
-const closeBtn =document.querySelector('.closepopup__btn');
-const popup = document.querySelector('.popup');
+const closeBtn =document.querySelector('.mainclose__btn');
+
+const popup = document.querySelector('.main__popup');
+
 const slider = document.querySelector('.presentation__slider');
 
 openBtn.addEventListener('click', () =>{    
@@ -137,7 +149,8 @@ closeBtn.addEventListener('click', () =>{
     popup.classList.add('visually-hidden');
     slider.classList.remove('visually-hidden')
 });
-//open popup
+
+
 
 /*const API_URL ='https://jsonplaceholder.typicode.com/posts';
 const forma =document.querySelector('.forma');

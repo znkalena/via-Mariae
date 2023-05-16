@@ -101,22 +101,26 @@
     color: #65575E;
     margin-bottom: 170px;
     font-weight: 700;
+    flex-basis: 70%;
 }
 .rurallure__logo{
     max-width: 324px;
     max-height: 69px;
-    margin-left: 774px;
+    justify-content: end;
 }
 .ruralure__block{
-    display: flex;
-    
+    display: flex;    
 }
 @media (max-width:1350px) {
     .presentation__conteiner{
         padding-left: 70px;       
     }
+    
     .presentation__text{        
         font-size: 24px;        
+    }
+    .pageabout__text{
+        font-size: 24px;
     }
 }
 @media (max-width:1020px) {
@@ -129,30 +133,63 @@
     .slider__title{          
         font-size: 40px;        
     }
+    
 }
 @media (max-width:860px) {
     .presentation__conteiner{
         padding-left: 40px;       
     }
     .presentation__text{        
-        font-size: 16px;        
+        font-size: 10px;        
+    }
+    .rurallure__link{
+        font-size: 24px;
     }
 }
 @media (max-width:660px) {
     .presentation__conteiner{
-        padding-left: 16px;
+        padding: 16px;
         padding-top: 0;       
     }
     .presentation__title{
         margin: 0;
+        margin-top: 20px;
+        text-align: center;
         font-size: 32px;
-        margin-bottom: 8px;
+        margin-bottom: 18px;
     }
     .presentation__text{        
         font-size: 10px;
         margin: 0;
         line-height: 12.19px;
         margin-bottom: 8px;        
+    }
+    .pageabout__text{        
+        font-size: 10px;
+        line-height: 12.19px;
+        margin-bottom: 20px;
+    }
+    .text-one{
+        margin-top: 307px;
+    }
+    .pagabout__img{
+        width: 90%;
+        height: auto;        
+        position: absolute;
+        top: 124px;        
+    }
+    .pageabout__link{        
+        font-size: 14px;
+        line-height: 16.52px;         
+        width:176px;
+        height: 32px;
+        background: #702C77;
+        border-radius: 26px;
+        text-align: center;
+        padding: 8px 15px;
+        box-sizing: border-box;        
+        margin: auto;
+        margin-bottom: 32px;
     }
     .presentation__link{
         font-size: 8px;        
@@ -188,4 +225,23 @@
         width: 6px;
         height: 12px;
     }
+    .ruralure__block{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .rurallure__link{
+        font-size: 10px;
+        line-height: 14px;
+        margin: auto;
+    }
+    .rurallure__link svg{
+        width: 4px;
+        height: 7px;
+    }
+    .rurallure__logo{
+        width:166px;
+        height: 35px; 
+        margin: auto;       
+    }
+    
 }

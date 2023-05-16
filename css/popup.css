@@ -1,5 +1,5 @@
 .popup__conteiner{
-    width: 375px;
+    width: 100%;    
     min-height: 604px;
     max-width: 100%;
     background-color:#65575E;
@@ -12,24 +12,13 @@
 .closepopup__btn{
     color: #ffffff;
     width: 24px;
-    height: 24px;
-    margin-left: 280px;
+    height: 24px;    
+    margin-left: 85%;
     margin-bottom: 58px;
     border: none;
     background-color: transparent;
 }
-@media (max-width:300px) {
-    .closepopup__btn{
-        margin-left: 200px;
-    }
-    .popup__conteiner{
-        padding-left: 0px;
-    } 
-    .popup__link::after{
-        right: 0;
-        left: 240px;
-    }   
-}
+
 .popup__list{
     position: relative;
     margin: 0;
@@ -91,18 +80,38 @@
     display: flex;
     gap: 8px;    
 }
-.language-option{
+.language__popup{
     position: absolute;
     bottom:-20px;
     display: none;
-    border:2px solid #FFFFFF;
+    border-bottom:1px solid #FFFFFF;
     padding-right: 40px;
 }
-.language-option a{
+.language__header{
+    position: absolute;
+    top:120px;
+    display: none;    
+    left: 80%;
+    padding-right: 40px;     
+}
+.language__popup a{
     color: #FFFFFF;
     font-size: 20px;
     font-family: 'TT Norms';
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase
+}
+
+@media (max-width:300px) {
+    .closepopup__btn{
+        margin-left: 200px;
+    }
+    .popup__conteiner{
+        padding-left: 0px;
+    } 
+    .popup__link::after{
+        right: 0;
+        left: 240px;
+    }   
 }
