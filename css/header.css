@@ -14,7 +14,7 @@
     }
 .pageabout__conteiner{
     box-sizing: border-box;
-    padding:72px 87px 0 87px;
+    padding:62px 87px 0 87px;
 }
 .nav__conteiner{
     display: flex;
@@ -89,7 +89,7 @@
     background-color:#492949;
     border-radius: 50%;           
     transform:translateX(6px);
-    top: 10%;
+    top: 80px;    
 }
 .translate__btn-header{
     border: none;
