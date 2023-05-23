@@ -4,7 +4,8 @@
 }
 
 .presentation__title{
-    color: rgba(112, 44, 119, 0.7);      
+    color: rgba(112, 44, 119, 0.7);
+    font-weight: 700;      
 }
 .presentation__text{
     font-family: 'Montserrat';
@@ -37,6 +38,7 @@
     display: flex;      
 }
 .presentation__btn{
+    cursor: pointer;
     width: 98px;
     height: 98px;
     border: none;

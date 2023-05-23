@@ -40,6 +40,7 @@
     margin-bottom: 18px;
 }
 .contact__title{ 
+    font-weight: 700;
     margin: 0;
     padding: 0;       
     margin-bottom: 72px;
@@ -99,6 +100,7 @@
     margin-bottom: 62px;
 }
 .forma__btn{
+    cursor: pointer;
     background: #65575E;
     border-radius: 48px;
     font-family: 'Montserrat';
@@ -106,8 +108,10 @@
     line-height: 120%;
     text-transform: uppercase; 
     color: #FFFFFF; 
-    padding: 24px 100px;
+    padding: auto;
     border: none; 
+    width: 326px;
+    height: 77px;
 }
 .imput-error{
     position: absolute;
@@ -118,6 +122,11 @@
 @media (max-width:1520px) {
     .contact__text{
         font-size: 26px;
+}
+.contact__fieldset textarea{
+    resize: none;
+    width: 400px;
+    height: 220px;
 }
 .logo__wrapper-img{    
     max-width:40%;
@@ -130,11 +139,20 @@
     .contact__text{
         font-size: 20px;
 }
+.forma__btn{
+    width: 250px;
+    height: 57px;
+}
 .forma{    
     gap: 100px;
 }
 .logo__wrapper-img:last-child{
     margin-left: 0px;
+}
+.contact__fieldset textarea{
+    resize: none;
+    width: 350px;
+    height: 150px;
 }
 }
 @media (max-width:1020px) {
@@ -155,12 +173,13 @@
 .forma__wrapper{
     max-width: 30%;
 }
-.contact__fieldset textarea{
-    resize: none;
-    width: 250px;
-}
+
 .fieldset__legend{
     font-size: 24px;
+}
+.contact__fieldset textarea{   
+    width: 250px;
+    height: 150px;
 }
 }
 @media (max-width:860px) {

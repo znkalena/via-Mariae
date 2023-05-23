@@ -1,60 +1,14 @@
-@font-face {
-    font-family: 'Montserrat', sans-serif;
-    font-style: italic;
-    font-weight: 700;
-    src: local('Montserrat'),
-    url(../fonts/AnyConv.com__Montserrat-BoldItalic.woff2) format('woff2'), 
-    url(../fonts/MiConv.com__Montserrat-Italic.woff) format('woff'); 
-    }
-    @font-face {
-        font-family: 'Montserrat', sans-serif;
-        font-style: bold;
-        font-weight: 700;
-        src: local(''),
-        url(../fonts/AnyConv.com__Montserrat-Bold.woff2) format('woff2'), 
-        url(../fonts/MiConv.com__Montserrat-Medium.woff) format('woff'); 
-        } 
-        @font-face {
-            font-family: 'Montserrat', sans-serif;
-            font-style: medium;
-            font-weight: 500;
-            src: local('Montserrat'),
-            url(../fonts/AnyConv.com__Montserrat-Medium.woff2) format('woff2'), 
-            url(../fonts/MiConv.com__Montserrat-Medium.woff) format('woff'); 
-            }           
-            @font-face {
-                font-family: 'Montserrat', sans-serif;
-                font-style: bold;
-                font-weight: 500;
-                src: local('Montserrat'),
-                url(../fonts/AnyConv.com__Montserrat-SemiBold.woff2) format('woff2'), 
-                url(../fonts/MiConv.com__Montserrat-SemiBold.woff) format('woff'); 
-                }
-                @font-face {
-                    font-family: 'TT Norms', sans-serif;
-                    font-style: bold;
-                    font-weight: 700;
-                    src: local(''),
-                    url(../fonts/TTNorms-Bold.woff2) format('woff2'), 
-                    url(../fonts/TTNorms-Bold.woff) format('woff'); 
-                    }
-                    @font-face {
-                        font-family: 'TT Norms', sans-serif;
-                        font-style: medium;
-                        font-weight: 500;
-                        src: local(''),
-                        url(../fonts/TTNorms-Medium.woff2) format('woff2'), 
-                        url(../fonts/TTNorms-Medium.woff) format('woff'); 
-                        }                  
 html{
     box-sizing: border-box;    
 }
 
-body{    
+body{ 
+    min-width: 320px;
+    min-height: 100vh;   
     box-sizing: border-box;
     width:100% ;
     max-width:1728px ;
-    font-family: 'TT Norms';
+    font-family: 'TT Norms',sans-serif;
     font-size: 32px;
     font-weight: 500;
     line-height: 120%;

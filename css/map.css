@@ -5,6 +5,7 @@
     flex-direction: column;       
 }
 .map__maintitle{
+    font-weight: 700;
     color: #65575E;
 }
 .map__title{
