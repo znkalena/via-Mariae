@@ -43,15 +43,14 @@
     line-height: 24px;    
     text-transform: uppercase;  
 }
-.popup__link::after{
-    position: absolute;
+.popup__link::after{    
     content: '';
     background-image: url(../img/popuparrow.svg);
     background-repeat: no-repeat;
     width: 12px;
     height: 8px;    
     right: 16px;
-    transform: translateY(20px);
+    transform: translateY(10px);
 }
 .social__item{    
     width: 22px;
@@ -111,9 +110,6 @@
     }
     .popup__conteiner{
         padding-left: 0px;
-    } 
-    .popup__link::after{
-        right: 0;
-        left: 240px;
-    }   
+    }
+    
 }
